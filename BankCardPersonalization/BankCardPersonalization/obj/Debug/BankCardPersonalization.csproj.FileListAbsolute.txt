@@ -1,0 +1,10 @@
+C:\Users\Jack\Documents\Visual Studio 2013\Projects\BankCardPersonalization\BankCardPersonalization\bin\Debug\BankCardPersonalization.exe
+C:\Users\Jack\Documents\Visual Studio 2013\Projects\BankCardPersonalization\BankCardPersonalization\bin\Debug\BankCardPersonalization.exe.config
+C:\Users\Jack\Documents\Visual Studio 2013\Projects\BankCardPersonalization\BankCardPersonalization\obj\Debug\BankCardPersonalization.Form1.resources
+C:\Users\Jack\Documents\Visual Studio 2013\Projects\BankCardPersonalization\BankCardPersonalization\obj\Debug\BankCardPersonalization.Form2.resources
+C:\Users\Jack\Documents\Visual Studio 2013\Projects\BankCardPersonalization\BankCardPersonalization\obj\Debug\BankCardPersonalization.Properties.Resources.resources
+C:\Users\Jack\Documents\Visual Studio 2013\Projects\BankCardPersonalization\BankCardPersonalization\obj\Debug\BankCardPersonalization.csproj.GenerateResource.Cache
+C:\Users\Jack\Documents\Visual Studio 2013\Projects\BankCardPersonalization\BankCardPersonalization\obj\Debug\BankCardPersonalization.exe
+C:\Users\Jack\Documents\Visual Studio 2013\Projects\BankCardPersonalization\BankCardPersonalization\obj\Debug\BankCardPersonalization.pdb
+C:\Users\Jack\Documents\Visual Studio 2013\Projects\BankCardPersonalization\BankCardPersonalization\obj\Debug\BankCardPersonalization.csprojResolveAssemblyReference.cache
+C:\Users\Jack\Documents\Visual Studio 2013\Projects\BankCardPersonalization\BankCardPersonalization\bin\Debug\BankCardPersonalization.pdb
