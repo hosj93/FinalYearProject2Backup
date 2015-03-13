@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageAbstractColourFilter",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageProcessing", "F:\ImageProcessing\ImageProcessing.csproj", "{FBB32F70-4B10-4C70-84B8-4EE2364F8B71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotatePictureBox", "..\..\..\..\Desktop\RotatePictureBox\RotatePictureBox\RotatePictureBox.csproj", "{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,16 @@ Global
 		{FBB32F70-4B10-4C70-84B8-4EE2364F8B71}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{FBB32F70-4B10-4C70-84B8-4EE2364F8B71}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{FBB32F70-4B10-4C70-84B8-4EE2364F8B71}.Release|x86.ActiveCfg = Release|Any CPU
+		{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A55BAD7D-F755-484C-8030-52ABA2FFDC9D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

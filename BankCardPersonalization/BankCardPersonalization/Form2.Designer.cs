@@ -32,22 +32,20 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.gBoxStepTwo = new System.Windows.Forms.GroupBox();
             this.lblInstructTwo = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.previewImgBox = new System.Windows.Forms.PictureBox();
             this.imgGradient = new System.Windows.Forms.ImageList(this.components);
             this.imageIconTab = new System.Windows.Forms.ImageList(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
             this.cmbCartoonEffect = new System.Windows.Forms.ComboBox();
             this.lblCartoonEffect = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.cmbColorSwapping = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tabFeatures = new System.Windows.Forms.TabControl();
+            this.tabCartoonEffect = new System.Windows.Forms.TabPage();
+            this.tabColorSwapping = new System.Windows.Forms.TabPage();
+            this.tabArtEffect = new System.Windows.Forms.TabPage();
             this.cBoxFizzyBlur = new System.Windows.Forms.CheckBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.cmbFilterSize = new System.Windows.Forms.ComboBox();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
+            this.cmbFilterSize = new System.Windows.Forms.ComboBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.lblThresholdValue = new System.Windows.Forms.Label();
             this.trcBitonal = new System.Windows.Forms.TrackBar();
@@ -79,13 +77,56 @@
             this.trcGammaBlue = new System.Windows.Forms.TrackBar();
             this.trcGammaGreen = new System.Windows.Forms.TrackBar();
             this.trcGammaRed = new System.Windows.Forms.TrackBar();
+            this.btnCEffectOne = new System.Windows.Forms.Button();
+            this.btnCEffectTwo = new System.Windows.Forms.Button();
+            this.btnCEffectThree = new System.Windows.Forms.Button();
+            this.btnCEffectFour = new System.Windows.Forms.Button();
+            this.labelCEffectOne = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btnCSwapOne = new System.Windows.Forms.Button();
+            this.btnCSwapTwo = new System.Windows.Forms.Button();
+            this.btnCSwapThree = new System.Windows.Forms.Button();
+            this.btnCSwapFour = new System.Windows.Forms.Button();
+            this.btnCSwapFive = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.btnArtEffectOne = new System.Windows.Forms.Button();
+            this.btnArtEffectTwo = new System.Windows.Forms.Button();
+            this.btnArtEffectThree = new System.Windows.Forms.Button();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.myGroupBox1 = new BankCardPersonalization.myGroupBox();
+            this.tabFilters = new System.Windows.Forms.TabControl();
+            this.tabFilterOne = new System.Windows.Forms.TabPage();
+            this.tabFilterTwo = new System.Windows.Forms.TabPage();
+            this.tabFilterThree = new System.Windows.Forms.TabPage();
+            this.groupBoxPrevImage = new BankCardPersonalization.myGroupBox();
+            this.previewImgBox = new System.Windows.Forms.PictureBox();
+            this.groupBoxFrame = new BankCardPersonalization.myGroupBox();
+            this.panelFrameOne = new System.Windows.Forms.Panel();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnFrameFour = new System.Windows.Forms.Button();
+            this.btnFrameThree = new System.Windows.Forms.Button();
+            this.btnFrameTwo = new System.Windows.Forms.Button();
+            this.btnFrameOne = new System.Windows.Forms.Button();
+            this.panelFrameTwo = new System.Windows.Forms.Panel();
+            this.btnPrevious = new System.Windows.Forms.Button();
+            this.btnFrameEight = new System.Windows.Forms.Button();
+            this.btnFrameSeven = new System.Windows.Forms.Button();
+            this.btnFrameSix = new System.Windows.Forms.Button();
+            this.btnFrameFive = new System.Windows.Forms.Button();
             this.gBoxStepTwo.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.previewImgBox)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.tabFeatures.SuspendLayout();
+            this.tabCartoonEffect.SuspendLayout();
+            this.tabColorSwapping.SuspendLayout();
+            this.tabArtEffect.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trcBitonal)).BeginInit();
             this.tabPage2.SuspendLayout();
@@ -98,6 +139,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaBlue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaGreen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaRed)).BeginInit();
+            this.myGroupBox1.SuspendLayout();
+            this.tabFilters.SuspendLayout();
+            this.groupBoxPrevImage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.previewImgBox)).BeginInit();
+            this.groupBoxFrame.SuspendLayout();
+            this.panelFrameOne.SuspendLayout();
+            this.panelFrameTwo.SuspendLayout();
             this.SuspendLayout();
             // 
             // gBoxStepTwo
@@ -121,25 +169,6 @@
             this.lblInstructTwo.TabIndex = 0;
             this.lblInstructTwo.Text = "Instruction";
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.previewImgBox);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(275, 195);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(611, 331);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Preview Image";
-            // 
-            // previewImgBox
-            // 
-            this.previewImgBox.Location = new System.Drawing.Point(71, 52);
-            this.previewImgBox.Name = "previewImgBox";
-            this.previewImgBox.Size = new System.Drawing.Size(460, 236);
-            this.previewImgBox.TabIndex = 0;
-            this.previewImgBox.TabStop = false;
-            // 
             // imgGradient
             // 
             this.imgGradient.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgGradient.ImageStream")));
@@ -159,55 +188,36 @@
             this.imageIconTab.Images.SetKeyName(4, "contrast-icon.png");
             this.imageIconTab.Images.SetKeyName(5, "gamma.png");
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.cmbCartoonEffect);
-            this.panel1.Controls.Add(this.lblCartoonEffect);
-            this.panel1.Location = new System.Drawing.Point(926, 35);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(287, 74);
-            this.panel1.TabIndex = 3;
-            // 
             // cmbCartoonEffect
             // 
             this.cmbCartoonEffect.BackColor = System.Drawing.SystemColors.HighlightText;
             this.cmbCartoonEffect.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCartoonEffect.FormattingEnabled = true;
             this.cmbCartoonEffect.ItemHeight = 16;
-            this.cmbCartoonEffect.Location = new System.Drawing.Point(8, 41);
+            this.cmbCartoonEffect.Location = new System.Drawing.Point(859, 37);
             this.cmbCartoonEffect.Name = "cmbCartoonEffect";
-            this.cmbCartoonEffect.Size = new System.Drawing.Size(270, 24);
+            this.cmbCartoonEffect.Size = new System.Drawing.Size(158, 24);
             this.cmbCartoonEffect.TabIndex = 1;
             this.cmbCartoonEffect.SelectedIndexChanged += new System.EventHandler(this.FilterLevelChanged);
             // 
             // lblCartoonEffect
             // 
-            this.lblCartoonEffect.AutoSize = true;
             this.lblCartoonEffect.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCartoonEffect.Location = new System.Drawing.Point(4, 14);
+            this.lblCartoonEffect.Location = new System.Drawing.Point(691, 37);
             this.lblCartoonEffect.Name = "lblCartoonEffect";
-            this.lblCartoonEffect.Size = new System.Drawing.Size(261, 24);
+            this.lblCartoonEffect.Size = new System.Drawing.Size(146, 24);
             this.lblCartoonEffect.TabIndex = 0;
-            this.lblCartoonEffect.Text = "Cartoon Effect (Smoothing)";
+            this.lblCartoonEffect.Text = "Cartoon Effect";
             this.lblCartoonEffect.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.cmbColorSwapping);
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(926, 139);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(287, 74);
-            this.panel2.TabIndex = 5;
             // 
             // cmbColorSwapping
             // 
             this.cmbColorSwapping.BackColor = System.Drawing.SystemColors.HighlightText;
             this.cmbColorSwapping.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbColorSwapping.FormattingEnabled = true;
-            this.cmbColorSwapping.Location = new System.Drawing.Point(12, 32);
+            this.cmbColorSwapping.Location = new System.Drawing.Point(855, 70);
             this.cmbColorSwapping.Name = "cmbColorSwapping";
-            this.cmbColorSwapping.Size = new System.Drawing.Size(266, 24);
+            this.cmbColorSwapping.Size = new System.Drawing.Size(158, 24);
             this.cmbColorSwapping.TabIndex = 1;
             this.cmbColorSwapping.SelectedIndexChanged += new System.EventHandler(this.ColorEffectChanged);
             // 
@@ -215,7 +225,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(8, 4);
+            this.label1.Location = new System.Drawing.Point(691, 66);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(158, 24);
             this.label1.TabIndex = 0;
@@ -223,14 +233,81 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.tabFeatures);
             this.groupBox2.Controls.Add(this.cBoxFizzyBlur);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(31, 195);
+            this.groupBox2.Location = new System.Drawing.Point(31, 192);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 512);
+            this.groupBox2.Size = new System.Drawing.Size(388, 547);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Simple Features";
+            // 
+            // tabFeatures
+            // 
+            this.tabFeatures.Alignment = System.Windows.Forms.TabAlignment.Left;
+            this.tabFeatures.Controls.Add(this.tabCartoonEffect);
+            this.tabFeatures.Controls.Add(this.tabColorSwapping);
+            this.tabFeatures.Controls.Add(this.tabArtEffect);
+            this.tabFeatures.Location = new System.Drawing.Point(26, 73);
+            this.tabFeatures.Multiline = true;
+            this.tabFeatures.Name = "tabFeatures";
+            this.tabFeatures.SelectedIndex = 0;
+            this.tabFeatures.Size = new System.Drawing.Size(356, 432);
+            this.tabFeatures.TabIndex = 7;
+            // 
+            // tabCartoonEffect
+            // 
+            this.tabCartoonEffect.Controls.Add(this.label12);
+            this.tabCartoonEffect.Controls.Add(this.label11);
+            this.tabCartoonEffect.Controls.Add(this.label5);
+            this.tabCartoonEffect.Controls.Add(this.labelCEffectOne);
+            this.tabCartoonEffect.Controls.Add(this.btnCEffectFour);
+            this.tabCartoonEffect.Controls.Add(this.btnCEffectThree);
+            this.tabCartoonEffect.Controls.Add(this.btnCEffectTwo);
+            this.tabCartoonEffect.Controls.Add(this.btnCEffectOne);
+            this.tabCartoonEffect.Location = new System.Drawing.Point(29, 4);
+            this.tabCartoonEffect.Name = "tabCartoonEffect";
+            this.tabCartoonEffect.Padding = new System.Windows.Forms.Padding(3);
+            this.tabCartoonEffect.Size = new System.Drawing.Size(323, 424);
+            this.tabCartoonEffect.TabIndex = 0;
+            this.tabCartoonEffect.Text = "Cartoon Effect";
+            this.tabCartoonEffect.UseVisualStyleBackColor = true;
+            // 
+            // tabColorSwapping
+            // 
+            this.tabColorSwapping.Controls.Add(this.label17);
+            this.tabColorSwapping.Controls.Add(this.label16);
+            this.tabColorSwapping.Controls.Add(this.label15);
+            this.tabColorSwapping.Controls.Add(this.label14);
+            this.tabColorSwapping.Controls.Add(this.label13);
+            this.tabColorSwapping.Controls.Add(this.btnCSwapFive);
+            this.tabColorSwapping.Controls.Add(this.btnCSwapFour);
+            this.tabColorSwapping.Controls.Add(this.btnCSwapThree);
+            this.tabColorSwapping.Controls.Add(this.btnCSwapTwo);
+            this.tabColorSwapping.Controls.Add(this.btnCSwapOne);
+            this.tabColorSwapping.Location = new System.Drawing.Point(29, 4);
+            this.tabColorSwapping.Name = "tabColorSwapping";
+            this.tabColorSwapping.Padding = new System.Windows.Forms.Padding(3);
+            this.tabColorSwapping.Size = new System.Drawing.Size(323, 424);
+            this.tabColorSwapping.TabIndex = 1;
+            this.tabColorSwapping.Text = "Color Swapping";
+            this.tabColorSwapping.UseVisualStyleBackColor = true;
+            // 
+            // tabArtEffect
+            // 
+            this.tabArtEffect.Controls.Add(this.label20);
+            this.tabArtEffect.Controls.Add(this.label19);
+            this.tabArtEffect.Controls.Add(this.label18);
+            this.tabArtEffect.Controls.Add(this.btnArtEffectThree);
+            this.tabArtEffect.Controls.Add(this.btnArtEffectTwo);
+            this.tabArtEffect.Controls.Add(this.btnArtEffectOne);
+            this.tabArtEffect.Location = new System.Drawing.Point(29, 4);
+            this.tabArtEffect.Name = "tabArtEffect";
+            this.tabArtEffect.Size = new System.Drawing.Size(323, 424);
+            this.tabArtEffect.TabIndex = 2;
+            this.tabArtEffect.Text = "Art Effect";
+            this.tabArtEffect.UseVisualStyleBackColor = true;
             // 
             // cBoxFizzyBlur
             // 
@@ -243,15 +320,14 @@
             this.cBoxFizzyBlur.UseVisualStyleBackColor = true;
             this.cBoxFizzyBlur.CheckedChanged += new System.EventHandler(this.cBoxFizzyBlur_CheckedChanged);
             // 
-            // label5
+            // label9
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(114, 9);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(125, 25);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "(Filter Size)";
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(691, 99);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(101, 25);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "Art Effect";
             // 
             // cmbFilterSize
             // 
@@ -268,31 +344,11 @@
             "13",
             "15",
             "17"});
-            this.cmbFilterSize.Location = new System.Drawing.Point(12, 47);
+            this.cmbFilterSize.Location = new System.Drawing.Point(820, 100);
             this.cmbFilterSize.Name = "cmbFilterSize";
-            this.cmbFilterSize.Size = new System.Drawing.Size(266, 24);
+            this.cmbFilterSize.Size = new System.Drawing.Size(158, 24);
             this.cmbFilterSize.TabIndex = 5;
             this.cmbFilterSize.SelectedIndexChanged += new System.EventHandler(this.cmbFilterSize_SelectedIndexChanged);
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.label9);
-            this.panel3.Controls.Add(this.label5);
-            this.panel3.Controls.Add(this.cmbFilterSize);
-            this.panel3.Location = new System.Drawing.Point(926, 238);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(287, 88);
-            this.panel3.TabIndex = 7;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(7, 9);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 25);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "Art Effect";
             // 
             // tabPage3
             // 
@@ -461,7 +517,7 @@
             this.listViewImgEffect.LargeImageList = this.imgGradient;
             this.listViewImgEffect.Location = new System.Drawing.Point(0, 0);
             this.listViewImgEffect.Name = "listViewImgEffect";
-            this.listViewImgEffect.Size = new System.Drawing.Size(603, 120);
+            this.listViewImgEffect.Size = new System.Drawing.Size(607, 120);
             this.listViewImgEffect.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.listViewImgEffect.TabIndex = 0;
             this.listViewImgEffect.UseCompatibleStateImageBehavior = false;
@@ -475,7 +531,7 @@
             this.tabImageProcess.Controls.Add(this.tabContrast);
             this.tabImageProcess.Controls.Add(this.tabGamma);
             this.tabImageProcess.ImageList = this.imageIconTab;
-            this.tabImageProcess.Location = new System.Drawing.Point(275, 556);
+            this.tabImageProcess.Location = new System.Drawing.Point(425, 584);
             this.tabImageProcess.Multiline = true;
             this.tabImageProcess.Name = "tabImageProcess";
             this.tabImageProcess.SelectedIndex = 0;
@@ -657,17 +713,473 @@
             this.trcGammaRed.Value = 1;
             this.trcGammaRed.Scroll += new System.EventHandler(this.trcGammaRed_Scroll);
             // 
+            // btnCEffectOne
+            // 
+            this.btnCEffectOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectOne.BackgroundImage")));
+            this.btnCEffectOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCEffectOne.Location = new System.Drawing.Point(16, 41);
+            this.btnCEffectOne.Name = "btnCEffectOne";
+            this.btnCEffectOne.Size = new System.Drawing.Size(144, 117);
+            this.btnCEffectOne.TabIndex = 0;
+            this.btnCEffectOne.UseVisualStyleBackColor = true;
+            // 
+            // btnCEffectTwo
+            // 
+            this.btnCEffectTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectTwo.BackgroundImage")));
+            this.btnCEffectTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCEffectTwo.Location = new System.Drawing.Point(166, 41);
+            this.btnCEffectTwo.Name = "btnCEffectTwo";
+            this.btnCEffectTwo.Size = new System.Drawing.Size(144, 117);
+            this.btnCEffectTwo.TabIndex = 1;
+            this.btnCEffectTwo.UseVisualStyleBackColor = true;
+            // 
+            // btnCEffectThree
+            // 
+            this.btnCEffectThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectThree.BackgroundImage")));
+            this.btnCEffectThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCEffectThree.Location = new System.Drawing.Point(16, 230);
+            this.btnCEffectThree.Name = "btnCEffectThree";
+            this.btnCEffectThree.Size = new System.Drawing.Size(144, 115);
+            this.btnCEffectThree.TabIndex = 2;
+            this.btnCEffectThree.UseVisualStyleBackColor = true;
+            // 
+            // btnCEffectFour
+            // 
+            this.btnCEffectFour.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectFour.BackgroundImage")));
+            this.btnCEffectFour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCEffectFour.Location = new System.Drawing.Point(166, 230);
+            this.btnCEffectFour.Name = "btnCEffectFour";
+            this.btnCEffectFour.Size = new System.Drawing.Size(144, 115);
+            this.btnCEffectFour.TabIndex = 3;
+            this.btnCEffectFour.UseVisualStyleBackColor = true;
+            // 
+            // labelCEffectOne
+            // 
+            this.labelCEffectOne.AutoSize = true;
+            this.labelCEffectOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCEffectOne.Location = new System.Drawing.Point(34, 161);
+            this.labelCEffectOne.Name = "labelCEffectOne";
+            this.labelCEffectOne.Size = new System.Drawing.Size(103, 18);
+            this.labelCEffectOne.TabIndex = 4;
+            this.labelCEffectOne.Text = " Comic Light";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(191, 161);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(98, 18);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Comic Dark";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(37, 348);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(100, 18);
+            this.label11.TabIndex = 6;
+            this.label11.Text = "Rock N Roll";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(214, 348);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(53, 18);
+            this.label12.TabIndex = 7;
+            this.label12.Text = "Aliens";
+            // 
+            // btnCSwapOne
+            // 
+            this.btnCSwapOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapOne.BackgroundImage")));
+            this.btnCSwapOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCSwapOne.Location = new System.Drawing.Point(18, 19);
+            this.btnCSwapOne.Name = "btnCSwapOne";
+            this.btnCSwapOne.Size = new System.Drawing.Size(133, 102);
+            this.btnCSwapOne.TabIndex = 0;
+            this.btnCSwapOne.UseVisualStyleBackColor = true;
+            // 
+            // btnCSwapTwo
+            // 
+            this.btnCSwapTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapTwo.BackgroundImage")));
+            this.btnCSwapTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCSwapTwo.Location = new System.Drawing.Point(173, 19);
+            this.btnCSwapTwo.Name = "btnCSwapTwo";
+            this.btnCSwapTwo.Size = new System.Drawing.Size(133, 102);
+            this.btnCSwapTwo.TabIndex = 1;
+            this.btnCSwapTwo.UseVisualStyleBackColor = true;
+            // 
+            // btnCSwapThree
+            // 
+            this.btnCSwapThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapThree.BackgroundImage")));
+            this.btnCSwapThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCSwapThree.Location = new System.Drawing.Point(18, 155);
+            this.btnCSwapThree.Name = "btnCSwapThree";
+            this.btnCSwapThree.Size = new System.Drawing.Size(133, 97);
+            this.btnCSwapThree.TabIndex = 2;
+            this.btnCSwapThree.UseVisualStyleBackColor = true;
+            // 
+            // btnCSwapFour
+            // 
+            this.btnCSwapFour.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapFour.BackgroundImage")));
+            this.btnCSwapFour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCSwapFour.Location = new System.Drawing.Point(173, 155);
+            this.btnCSwapFour.Name = "btnCSwapFour";
+            this.btnCSwapFour.Size = new System.Drawing.Size(133, 97);
+            this.btnCSwapFour.TabIndex = 3;
+            this.btnCSwapFour.UseVisualStyleBackColor = true;
+            // 
+            // btnCSwapFive
+            // 
+            this.btnCSwapFive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapFive.BackgroundImage")));
+            this.btnCSwapFive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCSwapFive.Location = new System.Drawing.Point(18, 290);
+            this.btnCSwapFive.Name = "btnCSwapFive";
+            this.btnCSwapFive.Size = new System.Drawing.Size(133, 92);
+            this.btnCSwapFive.TabIndex = 4;
+            this.btnCSwapFive.UseVisualStyleBackColor = true;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(9, 124);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(142, 18);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "Golden Memories";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(194, 124);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(91, 18);
+            this.label14.TabIndex = 6;
+            this.label14.Text = "Hulk Effect";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(43, 385);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(81, 18);
+            this.label15.TabIndex = 7;
+            this.label15.Text = "Toxicated";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(206, 253);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(69, 18);
+            this.label16.TabIndex = 8;
+            this.label16.Text = "Purplish";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(59, 253);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(50, 18);
+            this.label17.TabIndex = 9;
+            this.label17.Text = "Blues";
+            // 
+            // btnArtEffectOne
+            // 
+            this.btnArtEffectOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnArtEffectOne.BackgroundImage")));
+            this.btnArtEffectOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnArtEffectOne.Location = new System.Drawing.Point(94, 21);
+            this.btnArtEffectOne.Name = "btnArtEffectOne";
+            this.btnArtEffectOne.Size = new System.Drawing.Size(139, 90);
+            this.btnArtEffectOne.TabIndex = 0;
+            this.btnArtEffectOne.UseVisualStyleBackColor = true;
+            // 
+            // btnArtEffectTwo
+            // 
+            this.btnArtEffectTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnArtEffectTwo.BackgroundImage")));
+            this.btnArtEffectTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnArtEffectTwo.Location = new System.Drawing.Point(94, 156);
+            this.btnArtEffectTwo.Name = "btnArtEffectTwo";
+            this.btnArtEffectTwo.Size = new System.Drawing.Size(139, 90);
+            this.btnArtEffectTwo.TabIndex = 1;
+            this.btnArtEffectTwo.UseVisualStyleBackColor = true;
+            // 
+            // btnArtEffectThree
+            // 
+            this.btnArtEffectThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnArtEffectThree.BackgroundImage")));
+            this.btnArtEffectThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnArtEffectThree.Location = new System.Drawing.Point(94, 286);
+            this.btnArtEffectThree.Name = "btnArtEffectThree";
+            this.btnArtEffectThree.Size = new System.Drawing.Size(139, 90);
+            this.btnArtEffectThree.TabIndex = 2;
+            this.btnArtEffectThree.UseVisualStyleBackColor = true;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(114, 114);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(104, 18);
+            this.label18.TabIndex = 3;
+            this.label18.Text = "Nippon Paint";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(122, 249);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(93, 18);
+            this.label19.TabIndex = 4;
+            this.label19.Text = "Dulux Paint";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(122, 379);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(92, 18);
+            this.label20.TabIndex = 5;
+            this.label20.Text = "Coral Paint";
+            // 
+            // myGroupBox1
+            // 
+            this.myGroupBox1.BorderColor = System.Drawing.Color.Purple;
+            this.myGroupBox1.Controls.Add(this.tabFilters);
+            this.myGroupBox1.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.myGroupBox1.Location = new System.Drawing.Point(1059, 379);
+            this.myGroupBox1.Name = "myGroupBox1";
+            this.myGroupBox1.Size = new System.Drawing.Size(326, 360);
+            this.myGroupBox1.TabIndex = 11;
+            this.myGroupBox1.TabStop = false;
+            this.myGroupBox1.Text = "Filters";
+            // 
+            // tabFilters
+            // 
+            this.tabFilters.Alignment = System.Windows.Forms.TabAlignment.Left;
+            this.tabFilters.Controls.Add(this.tabFilterOne);
+            this.tabFilters.Controls.Add(this.tabFilterTwo);
+            this.tabFilters.Controls.Add(this.tabFilterThree);
+            this.tabFilters.Location = new System.Drawing.Point(9, 30);
+            this.tabFilters.Multiline = true;
+            this.tabFilters.Name = "tabFilters";
+            this.tabFilters.SelectedIndex = 0;
+            this.tabFilters.Size = new System.Drawing.Size(291, 306);
+            this.tabFilters.TabIndex = 0;
+            // 
+            // tabFilterOne
+            // 
+            this.tabFilterOne.BackColor = System.Drawing.SystemColors.Control;
+            this.tabFilterOne.Location = new System.Drawing.Point(34, 4);
+            this.tabFilterOne.Name = "tabFilterOne";
+            this.tabFilterOne.Size = new System.Drawing.Size(253, 298);
+            this.tabFilterOne.TabIndex = 2;
+            this.tabFilterOne.Text = "Popular";
+            // 
+            // tabFilterTwo
+            // 
+            this.tabFilterTwo.BackColor = System.Drawing.SystemColors.Control;
+            this.tabFilterTwo.Location = new System.Drawing.Point(34, 4);
+            this.tabFilterTwo.Name = "tabFilterTwo";
+            this.tabFilterTwo.Size = new System.Drawing.Size(253, 298);
+            this.tabFilterTwo.TabIndex = 1;
+            this.tabFilterTwo.Text = "Basic";
+            // 
+            // tabFilterThree
+            // 
+            this.tabFilterThree.BackColor = System.Drawing.SystemColors.Control;
+            this.tabFilterThree.Location = new System.Drawing.Point(34, 4);
+            this.tabFilterThree.Name = "tabFilterThree";
+            this.tabFilterThree.Size = new System.Drawing.Size(253, 298);
+            this.tabFilterThree.TabIndex = 0;
+            this.tabFilterThree.Text = "Style";
+            // 
+            // groupBoxPrevImage
+            // 
+            this.groupBoxPrevImage.BorderColor = System.Drawing.Color.Black;
+            this.groupBoxPrevImage.Controls.Add(this.previewImgBox);
+            this.groupBoxPrevImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxPrevImage.Location = new System.Drawing.Point(449, 205);
+            this.groupBoxPrevImage.Name = "groupBoxPrevImage";
+            this.groupBoxPrevImage.Size = new System.Drawing.Size(543, 316);
+            this.groupBoxPrevImage.TabIndex = 10;
+            this.groupBoxPrevImage.TabStop = false;
+            this.groupBoxPrevImage.Text = "Preview Image";
+            // 
+            // previewImgBox
+            // 
+            this.previewImgBox.Location = new System.Drawing.Point(6, 29);
+            this.previewImgBox.Name = "previewImgBox";
+            this.previewImgBox.Size = new System.Drawing.Size(531, 281);
+            this.previewImgBox.TabIndex = 0;
+            this.previewImgBox.TabStop = false;
+            // 
+            // groupBoxFrame
+            // 
+            this.groupBoxFrame.BorderColor = System.Drawing.SystemColors.HotTrack;
+            this.groupBoxFrame.Controls.Add(this.panelFrameOne);
+            this.groupBoxFrame.Controls.Add(this.panelFrameTwo);
+            this.groupBoxFrame.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBoxFrame.Location = new System.Drawing.Point(1059, 22);
+            this.groupBoxFrame.Name = "groupBoxFrame";
+            this.groupBoxFrame.Size = new System.Drawing.Size(326, 332);
+            this.groupBoxFrame.TabIndex = 9;
+            this.groupBoxFrame.TabStop = false;
+            this.groupBoxFrame.Text = "Frame";
+            // 
+            // panelFrameOne
+            // 
+            this.panelFrameOne.Controls.Add(this.btnNext);
+            this.panelFrameOne.Controls.Add(this.btnFrameFour);
+            this.panelFrameOne.Controls.Add(this.btnFrameThree);
+            this.panelFrameOne.Controls.Add(this.btnFrameTwo);
+            this.panelFrameOne.Controls.Add(this.btnFrameOne);
+            this.panelFrameOne.Location = new System.Drawing.Point(9, 26);
+            this.panelFrameOne.Name = "panelFrameOne";
+            this.panelFrameOne.Size = new System.Drawing.Size(299, 283);
+            this.panelFrameOne.TabIndex = 0;
+            // 
+            // btnNext
+            // 
+            this.btnNext.Location = new System.Drawing.Point(182, 240);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(109, 29);
+            this.btnNext.TabIndex = 4;
+            this.btnNext.Text = "Next >>";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            // 
+            // btnFrameFour
+            // 
+            this.btnFrameFour.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFrameFour.BackgroundImage")));
+            this.btnFrameFour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFrameFour.Location = new System.Drawing.Point(163, 127);
+            this.btnFrameFour.Name = "btnFrameFour";
+            this.btnFrameFour.Size = new System.Drawing.Size(125, 84);
+            this.btnFrameFour.TabIndex = 3;
+            this.btnFrameFour.UseVisualStyleBackColor = true;
+            // 
+            // btnFrameThree
+            // 
+            this.btnFrameThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFrameThree.BackgroundImage")));
+            this.btnFrameThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFrameThree.Location = new System.Drawing.Point(13, 127);
+            this.btnFrameThree.Name = "btnFrameThree";
+            this.btnFrameThree.Size = new System.Drawing.Size(126, 84);
+            this.btnFrameThree.TabIndex = 2;
+            this.btnFrameThree.UseVisualStyleBackColor = true;
+            // 
+            // btnFrameTwo
+            // 
+            this.btnFrameTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFrameTwo.BackgroundImage")));
+            this.btnFrameTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFrameTwo.Location = new System.Drawing.Point(163, 17);
+            this.btnFrameTwo.Name = "btnFrameTwo";
+            this.btnFrameTwo.Size = new System.Drawing.Size(125, 89);
+            this.btnFrameTwo.TabIndex = 1;
+            this.btnFrameTwo.UseVisualStyleBackColor = true;
+            // 
+            // btnFrameOne
+            // 
+            this.btnFrameOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFrameOne.BackgroundImage")));
+            this.btnFrameOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFrameOne.Location = new System.Drawing.Point(13, 18);
+            this.btnFrameOne.Name = "btnFrameOne";
+            this.btnFrameOne.Size = new System.Drawing.Size(126, 89);
+            this.btnFrameOne.TabIndex = 0;
+            this.btnFrameOne.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnFrameOne.UseVisualStyleBackColor = true;
+            // 
+            // panelFrameTwo
+            // 
+            this.panelFrameTwo.Controls.Add(this.btnPrevious);
+            this.panelFrameTwo.Controls.Add(this.btnFrameEight);
+            this.panelFrameTwo.Controls.Add(this.btnFrameSeven);
+            this.panelFrameTwo.Controls.Add(this.btnFrameSix);
+            this.panelFrameTwo.Controls.Add(this.btnFrameFive);
+            this.panelFrameTwo.Location = new System.Drawing.Point(9, 26);
+            this.panelFrameTwo.Name = "panelFrameTwo";
+            this.panelFrameTwo.Size = new System.Drawing.Size(299, 283);
+            this.panelFrameTwo.TabIndex = 9;
+            // 
+            // btnPrevious
+            // 
+            this.btnPrevious.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPrevious.Location = new System.Drawing.Point(23, 242);
+            this.btnPrevious.Name = "btnPrevious";
+            this.btnPrevious.Size = new System.Drawing.Size(135, 27);
+            this.btnPrevious.TabIndex = 4;
+            this.btnPrevious.Text = "<< Previous";
+            this.btnPrevious.UseVisualStyleBackColor = true;
+            this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
+            // 
+            // btnFrameEight
+            // 
+            this.btnFrameEight.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFrameEight.BackgroundImage")));
+            this.btnFrameEight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFrameEight.Location = new System.Drawing.Point(156, 130);
+            this.btnFrameEight.Name = "btnFrameEight";
+            this.btnFrameEight.Size = new System.Drawing.Size(123, 84);
+            this.btnFrameEight.TabIndex = 3;
+            this.btnFrameEight.UseVisualStyleBackColor = true;
+            // 
+            // btnFrameSeven
+            // 
+            this.btnFrameSeven.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFrameSeven.BackgroundImage")));
+            this.btnFrameSeven.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFrameSeven.Location = new System.Drawing.Point(23, 130);
+            this.btnFrameSeven.Name = "btnFrameSeven";
+            this.btnFrameSeven.Size = new System.Drawing.Size(116, 84);
+            this.btnFrameSeven.TabIndex = 2;
+            this.btnFrameSeven.UseVisualStyleBackColor = true;
+            // 
+            // btnFrameSix
+            // 
+            this.btnFrameSix.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFrameSix.BackgroundImage")));
+            this.btnFrameSix.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFrameSix.Location = new System.Drawing.Point(156, 18);
+            this.btnFrameSix.Name = "btnFrameSix";
+            this.btnFrameSix.Size = new System.Drawing.Size(123, 89);
+            this.btnFrameSix.TabIndex = 1;
+            this.btnFrameSix.UseVisualStyleBackColor = true;
+            // 
+            // btnFrameFive
+            // 
+            this.btnFrameFive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnFrameFive.BackgroundImage")));
+            this.btnFrameFive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnFrameFive.Location = new System.Drawing.Point(23, 18);
+            this.btnFrameFive.Name = "btnFrameFive";
+            this.btnFrameFive.Size = new System.Drawing.Size(116, 89);
+            this.btnFrameFive.TabIndex = 0;
+            this.btnFrameFive.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1319, 723);
-            this.Controls.Add(this.panel3);
+            this.ClientSize = new System.Drawing.Size(1420, 785);
+            this.Controls.Add(this.myGroupBox1);
+            this.Controls.Add(this.cmbFilterSize);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.groupBoxPrevImage);
+            this.Controls.Add(this.cmbColorSwapping);
+            this.Controls.Add(this.groupBoxFrame);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cmbCartoonEffect);
             this.Controls.Add(this.tabImageProcess);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.lblCartoonEffect);
             this.Controls.Add(this.gBoxStepTwo);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -675,16 +1187,15 @@
             this.Click += new System.EventHandler(this.ColorPanelClickEvent);
             this.gBoxStepTwo.ResumeLayout(false);
             this.gBoxStepTwo.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.previewImgBox)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.tabFeatures.ResumeLayout(false);
+            this.tabCartoonEffect.ResumeLayout(false);
+            this.tabCartoonEffect.PerformLayout();
+            this.tabColorSwapping.ResumeLayout(false);
+            this.tabColorSwapping.PerformLayout();
+            this.tabArtEffect.ResumeLayout(false);
+            this.tabArtEffect.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trcBitonal)).EndInit();
@@ -701,7 +1212,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaBlue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaGreen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaRed)).EndInit();
+            this.myGroupBox1.ResumeLayout(false);
+            this.tabFilters.ResumeLayout(false);
+            this.groupBoxPrevImage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.previewImgBox)).EndInit();
+            this.groupBoxFrame.ResumeLayout(false);
+            this.panelFrameOne.ResumeLayout(false);
+            this.panelFrameTwo.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -709,21 +1228,16 @@
 
         private System.Windows.Forms.GroupBox gBoxStepTwo;
         private System.Windows.Forms.Label lblInstructTwo;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox previewImgBox;
         private System.Windows.Forms.ImageList imgGradient;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblCartoonEffect;
         private System.Windows.Forms.ComboBox cmbCartoonEffect;
         private System.Windows.Forms.ImageList imageIconTab;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox cmbColorSwapping;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.CheckBox cBoxFizzyBlur;
         private System.Windows.Forms.ComboBox cmbFilterSize;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Label lblThresholdValue;
@@ -756,6 +1270,53 @@
         private System.Windows.Forms.Label lblTrcGammaBlue;
         private System.Windows.Forms.Label lblTrcGammaGreen;
         private System.Windows.Forms.Label lblTrcGammaRed;
+        private System.Windows.Forms.Panel panelFrameOne;
+        private System.Windows.Forms.Panel panelFrameTwo;
+        private System.Windows.Forms.Button btnFrameEight;
+        private System.Windows.Forms.Button btnFrameSeven;
+        private System.Windows.Forms.Button btnFrameSix;
+        private System.Windows.Forms.Button btnFrameFive;
+        private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button btnFrameFour;
+        private System.Windows.Forms.Button btnFrameThree;
+        private System.Windows.Forms.Button btnFrameTwo;
+        private System.Windows.Forms.Button btnFrameOne;
+        private System.Windows.Forms.Button btnPrevious;
+        private myGroupBox groupBoxFrame;
+        private myGroupBox groupBoxPrevImage;
+        private myGroupBox myGroupBox1;
+        private System.Windows.Forms.TabControl tabFilters;
+        private System.Windows.Forms.TabPage tabFilterOne;
+        private System.Windows.Forms.TabPage tabFilterTwo;
+        private System.Windows.Forms.TabPage tabFilterThree;
+        private System.Windows.Forms.TabControl tabFeatures;
+        private System.Windows.Forms.TabPage tabCartoonEffect;
+        private System.Windows.Forms.TabPage tabColorSwapping;
+        private System.Windows.Forms.TabPage tabArtEffect;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelCEffectOne;
+        private System.Windows.Forms.Button btnCEffectFour;
+        private System.Windows.Forms.Button btnCEffectThree;
+        private System.Windows.Forms.Button btnCEffectTwo;
+        private System.Windows.Forms.Button btnCEffectOne;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnCSwapFive;
+        private System.Windows.Forms.Button btnCSwapFour;
+        private System.Windows.Forms.Button btnCSwapThree;
+        private System.Windows.Forms.Button btnCSwapTwo;
+        private System.Windows.Forms.Button btnCSwapOne;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Button btnArtEffectThree;
+        private System.Windows.Forms.Button btnArtEffectTwo;
+        private System.Windows.Forms.Button btnArtEffectOne;
 
     }
 }

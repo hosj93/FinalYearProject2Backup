@@ -21,7 +21,6 @@ namespace BankCardPersonalization
         public bool imgAvailable = false;
         public string imageName;
         public string pathName;
-        //Image selectedImage;
         public Bitmap bmpSelectedImg = null;
         public Bitmap previewSelectedImg = null;
         public Form1()
@@ -291,7 +290,33 @@ namespace BankCardPersonalization
                 }
             
             }
+        private void btnRotate_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Clicks == 1)
+            {
+                RotateImage rotateImage90 = new RotateImage();
+                selectedImageBox.Image = rotateImage90.RotateImage90Degree(previewSelectedImg);
+                bmpSelectedImg = new Bitmap(selectedImageBox.Image);
+                previewSelectedImg = new Bitmap(selectedImageBox.Image);
+                imageLoaded = true;
+            }
+            //else if (e.Clicks == 2)
+            //{
+            //    RotateImage rotateImage180 = new RotateImage();
+            //    selectedImageBox.Image = rotateImage180.RotateImage180Degree(previewSelectedImg);
+            //    bmpSelectedImg = new Bitmap(selectedImageBox.Image);
+            //    previewSelectedImg = new Bitmap(selectedImageBox.Image);
+            //    imageLoaded = true;
+            //}
+            //else if (e.Clicks == 3)
+            //{
+            //    RotateImage rotateImage270 = new RotateImage();
+            //   selectedImageBox.Image = rotateImage270.RotateImage270Degree(previewSelectedImg);
+            //    bmpSelectedImg = new Bitmap(selectedImageBox.Image);
+            //    previewSelectedImg = new Bitmap(selectedImageBox.Image);
+            //    imageLoaded = true;
+            //}
         }
-    
+     }   
 }
   

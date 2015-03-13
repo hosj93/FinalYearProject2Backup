@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ImgSelectPanel = new System.Windows.Forms.Panel();
+            this.btnRotate = new System.Windows.Forms.Button();
             this.btnImgRandom = new System.Windows.Forms.Button();
             this.buttonSelectImg = new System.Windows.Forms.Button();
             this.gBoxStepOne = new System.Windows.Forms.GroupBox();
@@ -62,6 +63,7 @@
             // ImgSelectPanel
             // 
             this.ImgSelectPanel.BackColor = System.Drawing.Color.Silver;
+            this.ImgSelectPanel.Controls.Add(this.btnRotate);
             this.ImgSelectPanel.Controls.Add(this.btnImgRandom);
             this.ImgSelectPanel.Controls.Add(this.buttonSelectImg);
             this.ImgSelectPanel.Controls.Add(this.gBoxStepOne);
@@ -80,6 +82,17 @@
             this.ImgSelectPanel.Name = "ImgSelectPanel";
             this.ImgSelectPanel.Size = new System.Drawing.Size(1122, 835);
             this.ImgSelectPanel.TabIndex = 0;
+            // 
+            // btnRotate
+            // 
+            this.btnRotate.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRotate.BackgroundImage")));
+            this.btnRotate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnRotate.Location = new System.Drawing.Point(728, 722);
+            this.btnRotate.Name = "btnRotate";
+            this.btnRotate.Size = new System.Drawing.Size(66, 51);
+            this.btnRotate.TabIndex = 14;
+            this.btnRotate.UseVisualStyleBackColor = true;
+            this.btnRotate.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnRotate_MouseClick);
             // 
             // btnImgRandom
             // 
@@ -359,6 +372,7 @@
         private System.Windows.Forms.Button btnImgRandom;
         private System.Windows.Forms.GroupBox grpSelectedImg;
         private System.Windows.Forms.PictureBox selectedImageBox;
+        private System.Windows.Forms.Button btnRotate;
     }
 }
 

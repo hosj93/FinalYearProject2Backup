@@ -44,6 +44,8 @@ namespace BankCardPersonalization
             cmbCarEffectImplement();
             cmbColorSwappingImplement();
             cmbArtEffectImplement();
+            panelFrameTwo.Visible = false;
+            panelFrameOne.Visible = true;
         }
 
         public void cmbArtEffectImplement()
@@ -584,6 +586,18 @@ namespace BankCardPersonalization
                 gammaArray[i] = (byte)Math.Min(255, (int)((255.0 * Math.Pow(i / 255.0, 1.0 / color)) + 0.5));
             }
             return gammaArray;
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            panelFrameOne.Visible = false;
+            panelFrameTwo.Visible = true;
+        }
+
+        private void btnPrevious_Click(object sender, EventArgs e)
+        {
+            panelFrameOne.Visible = true;
+            panelFrameTwo.Visible = false;
         }
     }
 }
