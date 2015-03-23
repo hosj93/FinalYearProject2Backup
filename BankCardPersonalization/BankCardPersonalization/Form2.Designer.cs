@@ -34,18 +34,39 @@
             this.lblInstructTwo = new System.Windows.Forms.Label();
             this.imgGradient = new System.Windows.Forms.ImageList(this.components);
             this.imageIconTab = new System.Windows.Forms.ImageList(this.components);
-            this.cmbCartoonEffect = new System.Windows.Forms.ComboBox();
-            this.lblCartoonEffect = new System.Windows.Forms.Label();
-            this.cmbColorSwapping = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.cBoxRemoveFrame = new System.Windows.Forms.CheckBox();
             this.tabFeatures = new System.Windows.Forms.TabControl();
             this.tabCartoonEffect = new System.Windows.Forms.TabPage();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.labelCEffectOne = new System.Windows.Forms.Label();
+            this.btnCEffectFour = new System.Windows.Forms.Button();
+            this.btnCEffectThree = new System.Windows.Forms.Button();
+            this.btnCEffectTwo = new System.Windows.Forms.Button();
+            this.btnCEffectOne = new System.Windows.Forms.Button();
             this.tabColorSwapping = new System.Windows.Forms.TabPage();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.btnCSwapFive = new System.Windows.Forms.Button();
+            this.btnCSwapFour = new System.Windows.Forms.Button();
+            this.btnCSwapThree = new System.Windows.Forms.Button();
+            this.btnCSwapTwo = new System.Windows.Forms.Button();
+            this.btnCSwapOne = new System.Windows.Forms.Button();
             this.tabArtEffect = new System.Windows.Forms.TabPage();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.btnArtEffectThree = new System.Windows.Forms.Button();
+            this.btnArtEffectTwo = new System.Windows.Forms.Button();
+            this.btnArtEffectOne = new System.Windows.Forms.Button();
             this.cBoxFizzyBlur = new System.Windows.Forms.CheckBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.cmbFilterSize = new System.Windows.Forms.ComboBox();
+            this.buttonResetDefault = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.lblThresholdValue = new System.Windows.Forms.Label();
             this.trcBitonal = new System.Windows.Forms.TrackBar();
@@ -77,35 +98,53 @@
             this.trcGammaBlue = new System.Windows.Forms.TrackBar();
             this.trcGammaGreen = new System.Windows.Forms.TrackBar();
             this.trcGammaRed = new System.Windows.Forms.TrackBar();
-            this.btnCEffectOne = new System.Windows.Forms.Button();
-            this.btnCEffectTwo = new System.Windows.Forms.Button();
-            this.btnCEffectThree = new System.Windows.Forms.Button();
-            this.btnCEffectFour = new System.Windows.Forms.Button();
-            this.labelCEffectOne = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.btnCSwapOne = new System.Windows.Forms.Button();
-            this.btnCSwapTwo = new System.Windows.Forms.Button();
-            this.btnCSwapThree = new System.Windows.Forms.Button();
-            this.btnCSwapFour = new System.Windows.Forms.Button();
-            this.btnCSwapFive = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.btnArtEffectOne = new System.Windows.Forms.Button();
-            this.btnArtEffectTwo = new System.Windows.Forms.Button();
-            this.btnArtEffectThree = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
+            this.lblTimerHour = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.lblTimerMin = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.lblTimerSec = new System.Windows.Forms.Label();
+            this.timerLoading = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnCardPhoto = new System.Windows.Forms.Button();
+            this.lblCard = new System.Windows.Forms.Label();
+            this.picBoxCard = new System.Windows.Forms.PictureBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.btnProceed = new System.Windows.Forms.Button();
             this.myGroupBox1 = new BankCardPersonalization.myGroupBox();
+            this.panelTextInsert = new System.Windows.Forms.Panel();
+            this.btnApplyText = new System.Windows.Forms.Button();
+            this.cBoxTextColor = new System.Windows.Forms.ComboBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.cBoxTextLocation = new System.Windows.Forms.ComboBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.textInserting = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.cBoxFontStyle = new System.Windows.Forms.ComboBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.cBoxFontSize = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.cBoxFont = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.rBtnText = new System.Windows.Forms.RadioButton();
+            this.rBtnFilters = new System.Windows.Forms.RadioButton();
+            this.panelFilters = new System.Windows.Forms.Panel();
             this.tabFilters = new System.Windows.Forms.TabControl();
             this.tabFilterOne = new System.Windows.Forms.TabPage();
+            this.btnOverlaySix = new System.Windows.Forms.Button();
+            this.btnOverlayFive = new System.Windows.Forms.Button();
+            this.btnOverlayFour = new System.Windows.Forms.Button();
+            this.btnOverlayThree = new System.Windows.Forms.Button();
+            this.btnOverlayTwo = new System.Windows.Forms.Button();
+            this.btnOverlayOne = new System.Windows.Forms.Button();
             this.tabFilterTwo = new System.Windows.Forms.TabPage();
-            this.tabFilterThree = new System.Windows.Forms.TabPage();
+            this.btnOverlayBasSix = new System.Windows.Forms.Button();
+            this.btnOverlayBasFive = new System.Windows.Forms.Button();
+            this.btnOverlayBasFour = new System.Windows.Forms.Button();
+            this.btnOverlayBasThree = new System.Windows.Forms.Button();
+            this.btnOverlayBasTwo = new System.Windows.Forms.Button();
+            this.btnOverlayBasOne = new System.Windows.Forms.Button();
             this.groupBoxPrevImage = new BankCardPersonalization.myGroupBox();
             this.previewImgBox = new System.Windows.Forms.PictureBox();
             this.groupBoxFrame = new BankCardPersonalization.myGroupBox();
@@ -123,6 +162,7 @@
             this.btnFrameFive = new System.Windows.Forms.Button();
             this.gBoxStepTwo.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.tabFeatures.SuspendLayout();
             this.tabCartoonEffect.SuspendLayout();
             this.tabColorSwapping.SuspendLayout();
@@ -139,8 +179,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaBlue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaGreen)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaRed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxCard)).BeginInit();
             this.myGroupBox1.SuspendLayout();
+            this.panelTextInsert.SuspendLayout();
+            this.panelFilters.SuspendLayout();
             this.tabFilters.SuspendLayout();
+            this.tabFilterOne.SuspendLayout();
+            this.tabFilterTwo.SuspendLayout();
             this.groupBoxPrevImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.previewImgBox)).BeginInit();
             this.groupBoxFrame.SuspendLayout();
@@ -152,9 +199,9 @@
             // 
             this.gBoxStepTwo.Controls.Add(this.lblInstructTwo);
             this.gBoxStepTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gBoxStepTwo.Location = new System.Drawing.Point(31, 22);
+            this.gBoxStepTwo.Location = new System.Drawing.Point(31, 12);
             this.gBoxStepTwo.Name = "gBoxStepTwo";
-            this.gBoxStepTwo.Size = new System.Drawing.Size(626, 149);
+            this.gBoxStepTwo.Size = new System.Drawing.Size(388, 159);
             this.gBoxStepTwo.TabIndex = 0;
             this.gBoxStepTwo.TabStop = false;
             this.gBoxStepTwo.Text = "Step 2";
@@ -188,60 +235,40 @@
             this.imageIconTab.Images.SetKeyName(4, "contrast-icon.png");
             this.imageIconTab.Images.SetKeyName(5, "gamma.png");
             // 
-            // cmbCartoonEffect
-            // 
-            this.cmbCartoonEffect.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.cmbCartoonEffect.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbCartoonEffect.FormattingEnabled = true;
-            this.cmbCartoonEffect.ItemHeight = 16;
-            this.cmbCartoonEffect.Location = new System.Drawing.Point(859, 37);
-            this.cmbCartoonEffect.Name = "cmbCartoonEffect";
-            this.cmbCartoonEffect.Size = new System.Drawing.Size(158, 24);
-            this.cmbCartoonEffect.TabIndex = 1;
-            this.cmbCartoonEffect.SelectedIndexChanged += new System.EventHandler(this.FilterLevelChanged);
-            // 
-            // lblCartoonEffect
-            // 
-            this.lblCartoonEffect.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCartoonEffect.Location = new System.Drawing.Point(691, 37);
-            this.lblCartoonEffect.Name = "lblCartoonEffect";
-            this.lblCartoonEffect.Size = new System.Drawing.Size(146, 24);
-            this.lblCartoonEffect.TabIndex = 0;
-            this.lblCartoonEffect.Text = "Cartoon Effect";
-            this.lblCartoonEffect.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // cmbColorSwapping
-            // 
-            this.cmbColorSwapping.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.cmbColorSwapping.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbColorSwapping.FormattingEnabled = true;
-            this.cmbColorSwapping.Location = new System.Drawing.Point(855, 70);
-            this.cmbColorSwapping.Name = "cmbColorSwapping";
-            this.cmbColorSwapping.Size = new System.Drawing.Size(158, 24);
-            this.cmbColorSwapping.TabIndex = 1;
-            this.cmbColorSwapping.SelectedIndexChanged += new System.EventHandler(this.ColorEffectChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(691, 66);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Color Swapping";
-            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.pictureBox3);
+            this.groupBox2.Controls.Add(this.cBoxRemoveFrame);
             this.groupBox2.Controls.Add(this.tabFeatures);
             this.groupBox2.Controls.Add(this.cBoxFizzyBlur);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(31, 192);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(388, 547);
+            this.groupBox2.Size = new System.Drawing.Size(388, 608);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Simple Features";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(6, 568);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(264, 35);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabStop = false;
+            // 
+            // cBoxRemoveFrame
+            // 
+            this.cBoxRemoveFrame.AutoSize = true;
+            this.cBoxRemoveFrame.Location = new System.Drawing.Point(192, 46);
+            this.cBoxRemoveFrame.Name = "cBoxRemoveFrame";
+            this.cBoxRemoveFrame.Size = new System.Drawing.Size(157, 24);
+            this.cBoxRemoveFrame.TabIndex = 8;
+            this.cBoxRemoveFrame.Text = "Remove Frame";
+            this.cBoxRemoveFrame.UseVisualStyleBackColor = true;
+            this.cBoxRemoveFrame.CheckedChanged += new System.EventHandler(this.cBoxRemoveFrame_CheckedChanged);
             // 
             // tabFeatures
             // 
@@ -249,7 +276,7 @@
             this.tabFeatures.Controls.Add(this.tabCartoonEffect);
             this.tabFeatures.Controls.Add(this.tabColorSwapping);
             this.tabFeatures.Controls.Add(this.tabArtEffect);
-            this.tabFeatures.Location = new System.Drawing.Point(26, 73);
+            this.tabFeatures.Location = new System.Drawing.Point(10, 109);
             this.tabFeatures.Multiline = true;
             this.tabFeatures.Name = "tabFeatures";
             this.tabFeatures.SelectedIndex = 0;
@@ -274,6 +301,90 @@
             this.tabCartoonEffect.Text = "Cartoon Effect";
             this.tabCartoonEffect.UseVisualStyleBackColor = true;
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(214, 348);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(53, 18);
+            this.label12.TabIndex = 7;
+            this.label12.Text = "Aliens";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(37, 348);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(100, 18);
+            this.label11.TabIndex = 6;
+            this.label11.Text = "Rock N Roll";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(191, 161);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(98, 18);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Comic Dark";
+            // 
+            // labelCEffectOne
+            // 
+            this.labelCEffectOne.AutoSize = true;
+            this.labelCEffectOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCEffectOne.Location = new System.Drawing.Point(34, 161);
+            this.labelCEffectOne.Name = "labelCEffectOne";
+            this.labelCEffectOne.Size = new System.Drawing.Size(103, 18);
+            this.labelCEffectOne.TabIndex = 4;
+            this.labelCEffectOne.Text = " Comic Light";
+            // 
+            // btnCEffectFour
+            // 
+            this.btnCEffectFour.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectFour.BackgroundImage")));
+            this.btnCEffectFour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCEffectFour.Location = new System.Drawing.Point(166, 230);
+            this.btnCEffectFour.Name = "btnCEffectFour";
+            this.btnCEffectFour.Size = new System.Drawing.Size(144, 115);
+            this.btnCEffectFour.TabIndex = 3;
+            this.btnCEffectFour.UseVisualStyleBackColor = true;
+            this.btnCEffectFour.Click += new System.EventHandler(this.btnCEffectFour_Click);
+            // 
+            // btnCEffectThree
+            // 
+            this.btnCEffectThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectThree.BackgroundImage")));
+            this.btnCEffectThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCEffectThree.Location = new System.Drawing.Point(16, 230);
+            this.btnCEffectThree.Name = "btnCEffectThree";
+            this.btnCEffectThree.Size = new System.Drawing.Size(144, 115);
+            this.btnCEffectThree.TabIndex = 2;
+            this.btnCEffectThree.UseVisualStyleBackColor = true;
+            this.btnCEffectThree.Click += new System.EventHandler(this.btnCEffectThree_Click);
+            // 
+            // btnCEffectTwo
+            // 
+            this.btnCEffectTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectTwo.BackgroundImage")));
+            this.btnCEffectTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCEffectTwo.Location = new System.Drawing.Point(166, 41);
+            this.btnCEffectTwo.Name = "btnCEffectTwo";
+            this.btnCEffectTwo.Size = new System.Drawing.Size(144, 117);
+            this.btnCEffectTwo.TabIndex = 1;
+            this.btnCEffectTwo.UseVisualStyleBackColor = true;
+            this.btnCEffectTwo.Click += new System.EventHandler(this.btnCEffectTwo_Click);
+            // 
+            // btnCEffectOne
+            // 
+            this.btnCEffectOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectOne.BackgroundImage")));
+            this.btnCEffectOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCEffectOne.Location = new System.Drawing.Point(16, 41);
+            this.btnCEffectOne.Name = "btnCEffectOne";
+            this.btnCEffectOne.Size = new System.Drawing.Size(144, 117);
+            this.btnCEffectOne.TabIndex = 0;
+            this.btnCEffectOne.UseVisualStyleBackColor = true;
+            this.btnCEffectOne.Click += new System.EventHandler(this.btnCEffectOne_Click);
+            // 
             // tabColorSwapping
             // 
             this.tabColorSwapping.Controls.Add(this.label17);
@@ -294,6 +405,111 @@
             this.tabColorSwapping.Text = "Color Swapping";
             this.tabColorSwapping.UseVisualStyleBackColor = true;
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(59, 253);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(50, 18);
+            this.label17.TabIndex = 9;
+            this.label17.Text = "Blues";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(206, 253);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(69, 18);
+            this.label16.TabIndex = 8;
+            this.label16.Text = "Purplish";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(43, 385);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(81, 18);
+            this.label15.TabIndex = 7;
+            this.label15.Text = "Toxicated";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(194, 124);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(91, 18);
+            this.label14.TabIndex = 6;
+            this.label14.Text = "Hulk Effect";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(9, 124);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(142, 18);
+            this.label13.TabIndex = 5;
+            this.label13.Text = "Golden Memories";
+            // 
+            // btnCSwapFive
+            // 
+            this.btnCSwapFive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapFive.BackgroundImage")));
+            this.btnCSwapFive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCSwapFive.Location = new System.Drawing.Point(18, 290);
+            this.btnCSwapFive.Name = "btnCSwapFive";
+            this.btnCSwapFive.Size = new System.Drawing.Size(133, 92);
+            this.btnCSwapFive.TabIndex = 4;
+            this.btnCSwapFive.UseVisualStyleBackColor = true;
+            this.btnCSwapFive.Click += new System.EventHandler(this.btnCSwapFive_Click);
+            // 
+            // btnCSwapFour
+            // 
+            this.btnCSwapFour.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapFour.BackgroundImage")));
+            this.btnCSwapFour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCSwapFour.Location = new System.Drawing.Point(173, 155);
+            this.btnCSwapFour.Name = "btnCSwapFour";
+            this.btnCSwapFour.Size = new System.Drawing.Size(133, 97);
+            this.btnCSwapFour.TabIndex = 3;
+            this.btnCSwapFour.UseVisualStyleBackColor = true;
+            this.btnCSwapFour.Click += new System.EventHandler(this.btnCSwapFour_Click);
+            // 
+            // btnCSwapThree
+            // 
+            this.btnCSwapThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapThree.BackgroundImage")));
+            this.btnCSwapThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCSwapThree.Location = new System.Drawing.Point(18, 155);
+            this.btnCSwapThree.Name = "btnCSwapThree";
+            this.btnCSwapThree.Size = new System.Drawing.Size(133, 97);
+            this.btnCSwapThree.TabIndex = 2;
+            this.btnCSwapThree.UseVisualStyleBackColor = true;
+            this.btnCSwapThree.Click += new System.EventHandler(this.btnCSwapThree_Click);
+            // 
+            // btnCSwapTwo
+            // 
+            this.btnCSwapTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapTwo.BackgroundImage")));
+            this.btnCSwapTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCSwapTwo.Location = new System.Drawing.Point(173, 19);
+            this.btnCSwapTwo.Name = "btnCSwapTwo";
+            this.btnCSwapTwo.Size = new System.Drawing.Size(133, 102);
+            this.btnCSwapTwo.TabIndex = 1;
+            this.btnCSwapTwo.UseVisualStyleBackColor = true;
+            this.btnCSwapTwo.Click += new System.EventHandler(this.btnCSwapTwo_Click);
+            // 
+            // btnCSwapOne
+            // 
+            this.btnCSwapOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapOne.BackgroundImage")));
+            this.btnCSwapOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnCSwapOne.Location = new System.Drawing.Point(18, 19);
+            this.btnCSwapOne.Name = "btnCSwapOne";
+            this.btnCSwapOne.Size = new System.Drawing.Size(133, 102);
+            this.btnCSwapOne.TabIndex = 0;
+            this.btnCSwapOne.UseVisualStyleBackColor = true;
+            this.btnCSwapOne.Click += new System.EventHandler(this.btnCSwapOne_Click);
+            // 
             // tabArtEffect
             // 
             this.tabArtEffect.Controls.Add(this.label20);
@@ -309,10 +525,73 @@
             this.tabArtEffect.Text = "Art Effect";
             this.tabArtEffect.UseVisualStyleBackColor = true;
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(122, 379);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(92, 18);
+            this.label20.TabIndex = 5;
+            this.label20.Text = "Coral Paint";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(122, 249);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(93, 18);
+            this.label19.TabIndex = 4;
+            this.label19.Text = "Dulux Paint";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(114, 114);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(104, 18);
+            this.label18.TabIndex = 3;
+            this.label18.Text = "Nippon Paint";
+            // 
+            // btnArtEffectThree
+            // 
+            this.btnArtEffectThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnArtEffectThree.BackgroundImage")));
+            this.btnArtEffectThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnArtEffectThree.Location = new System.Drawing.Point(94, 286);
+            this.btnArtEffectThree.Name = "btnArtEffectThree";
+            this.btnArtEffectThree.Size = new System.Drawing.Size(139, 90);
+            this.btnArtEffectThree.TabIndex = 2;
+            this.btnArtEffectThree.UseVisualStyleBackColor = true;
+            this.btnArtEffectThree.Click += new System.EventHandler(this.btnArtEffectThree_Click);
+            // 
+            // btnArtEffectTwo
+            // 
+            this.btnArtEffectTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnArtEffectTwo.BackgroundImage")));
+            this.btnArtEffectTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnArtEffectTwo.Location = new System.Drawing.Point(94, 156);
+            this.btnArtEffectTwo.Name = "btnArtEffectTwo";
+            this.btnArtEffectTwo.Size = new System.Drawing.Size(139, 90);
+            this.btnArtEffectTwo.TabIndex = 1;
+            this.btnArtEffectTwo.UseVisualStyleBackColor = true;
+            this.btnArtEffectTwo.Click += new System.EventHandler(this.btnArtEffectTwo_Click);
+            // 
+            // btnArtEffectOne
+            // 
+            this.btnArtEffectOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnArtEffectOne.BackgroundImage")));
+            this.btnArtEffectOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnArtEffectOne.Location = new System.Drawing.Point(94, 21);
+            this.btnArtEffectOne.Name = "btnArtEffectOne";
+            this.btnArtEffectOne.Size = new System.Drawing.Size(139, 90);
+            this.btnArtEffectOne.TabIndex = 0;
+            this.btnArtEffectOne.UseVisualStyleBackColor = true;
+            this.btnArtEffectOne.Click += new System.EventHandler(this.btnArtEffectOne_Click);
+            // 
             // cBoxFizzyBlur
             // 
             this.cBoxFizzyBlur.AutoSize = true;
-            this.cBoxFizzyBlur.Location = new System.Drawing.Point(26, 43);
+            this.cBoxFizzyBlur.Location = new System.Drawing.Point(39, 46);
             this.cBoxFizzyBlur.Name = "cBoxFizzyBlur";
             this.cBoxFizzyBlur.Size = new System.Drawing.Size(117, 24);
             this.cBoxFizzyBlur.TabIndex = 1;
@@ -320,35 +599,16 @@
             this.cBoxFizzyBlur.UseVisualStyleBackColor = true;
             this.cBoxFizzyBlur.CheckedChanged += new System.EventHandler(this.cBoxFizzyBlur_CheckedChanged);
             // 
-            // label9
+            // buttonResetDefault
             // 
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(691, 99);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 25);
-            this.label9.TabIndex = 6;
-            this.label9.Text = "Art Effect";
-            // 
-            // cmbFilterSize
-            // 
-            this.cmbFilterSize.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.cmbFilterSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbFilterSize.FormattingEnabled = true;
-            this.cmbFilterSize.Items.AddRange(new object[] {
-            "None",
-            "3",
-            "5",
-            "7",
-            "9",
-            "11",
-            "13",
-            "15",
-            "17"});
-            this.cmbFilterSize.Location = new System.Drawing.Point(820, 100);
-            this.cmbFilterSize.Name = "cmbFilterSize";
-            this.cmbFilterSize.Size = new System.Drawing.Size(158, 24);
-            this.cmbFilterSize.TabIndex = 5;
-            this.cmbFilterSize.SelectedIndexChanged += new System.EventHandler(this.cmbFilterSize_SelectedIndexChanged);
+            this.buttonResetDefault.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonResetDefault.Location = new System.Drawing.Point(455, 583);
+            this.buttonResetDefault.Name = "buttonResetDefault";
+            this.buttonResetDefault.Size = new System.Drawing.Size(85, 44);
+            this.buttonResetDefault.TabIndex = 8;
+            this.buttonResetDefault.Text = "Reset";
+            this.buttonResetDefault.UseVisualStyleBackColor = true;
+            this.buttonResetDefault.Click += new System.EventHandler(this.buttonResetDefault_Click);
             // 
             // tabPage3
             // 
@@ -531,7 +791,7 @@
             this.tabImageProcess.Controls.Add(this.tabContrast);
             this.tabImageProcess.Controls.Add(this.tabGamma);
             this.tabImageProcess.ImageList = this.imageIconTab;
-            this.tabImageProcess.Location = new System.Drawing.Point(425, 584);
+            this.tabImageProcess.Location = new System.Drawing.Point(425, 649);
             this.tabImageProcess.Multiline = true;
             this.tabImageProcess.Name = "tabImageProcess";
             this.tabImageProcess.SelectedIndex = 0;
@@ -713,297 +973,505 @@
             this.trcGammaRed.Value = 1;
             this.trcGammaRed.Scroll += new System.EventHandler(this.trcGammaRed_Scroll);
             // 
-            // btnCEffectOne
+            // lblTimerHour
             // 
-            this.btnCEffectOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectOne.BackgroundImage")));
-            this.btnCEffectOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCEffectOne.Location = new System.Drawing.Point(16, 41);
-            this.btnCEffectOne.Name = "btnCEffectOne";
-            this.btnCEffectOne.Size = new System.Drawing.Size(144, 117);
-            this.btnCEffectOne.TabIndex = 0;
-            this.btnCEffectOne.UseVisualStyleBackColor = true;
+            this.lblTimerHour.AutoSize = true;
+            this.lblTimerHour.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimerHour.ForeColor = System.Drawing.Color.Blue;
+            this.lblTimerHour.Location = new System.Drawing.Point(850, 62);
+            this.lblTimerHour.Name = "lblTimerHour";
+            this.lblTimerHour.Size = new System.Drawing.Size(41, 29);
+            this.lblTimerHour.TabIndex = 12;
+            this.lblTimerHour.Text = "00";
             // 
-            // btnCEffectTwo
+            // label26
             // 
-            this.btnCEffectTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectTwo.BackgroundImage")));
-            this.btnCEffectTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCEffectTwo.Location = new System.Drawing.Point(166, 41);
-            this.btnCEffectTwo.Name = "btnCEffectTwo";
-            this.btnCEffectTwo.Size = new System.Drawing.Size(144, 117);
-            this.btnCEffectTwo.TabIndex = 1;
-            this.btnCEffectTwo.UseVisualStyleBackColor = true;
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.Blue;
+            this.label26.Location = new System.Drawing.Point(897, 63);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(20, 29);
+            this.label26.TabIndex = 13;
+            this.label26.Text = ":";
             // 
-            // btnCEffectThree
+            // lblTimerMin
             // 
-            this.btnCEffectThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectThree.BackgroundImage")));
-            this.btnCEffectThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCEffectThree.Location = new System.Drawing.Point(16, 230);
-            this.btnCEffectThree.Name = "btnCEffectThree";
-            this.btnCEffectThree.Size = new System.Drawing.Size(144, 115);
-            this.btnCEffectThree.TabIndex = 2;
-            this.btnCEffectThree.UseVisualStyleBackColor = true;
+            this.lblTimerMin.AutoSize = true;
+            this.lblTimerMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimerMin.ForeColor = System.Drawing.Color.Blue;
+            this.lblTimerMin.Location = new System.Drawing.Point(923, 63);
+            this.lblTimerMin.Name = "lblTimerMin";
+            this.lblTimerMin.Size = new System.Drawing.Size(41, 29);
+            this.lblTimerMin.TabIndex = 14;
+            this.lblTimerMin.Text = "00";
             // 
-            // btnCEffectFour
+            // label27
             // 
-            this.btnCEffectFour.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCEffectFour.BackgroundImage")));
-            this.btnCEffectFour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCEffectFour.Location = new System.Drawing.Point(166, 230);
-            this.btnCEffectFour.Name = "btnCEffectFour";
-            this.btnCEffectFour.Size = new System.Drawing.Size(144, 115);
-            this.btnCEffectFour.TabIndex = 3;
-            this.btnCEffectFour.UseVisualStyleBackColor = true;
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.Blue;
+            this.label27.Location = new System.Drawing.Point(970, 62);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(20, 29);
+            this.label27.TabIndex = 15;
+            this.label27.Text = ":";
             // 
-            // labelCEffectOne
+            // lblTimerSec
             // 
-            this.labelCEffectOne.AutoSize = true;
-            this.labelCEffectOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCEffectOne.Location = new System.Drawing.Point(34, 161);
-            this.labelCEffectOne.Name = "labelCEffectOne";
-            this.labelCEffectOne.Size = new System.Drawing.Size(103, 18);
-            this.labelCEffectOne.TabIndex = 4;
-            this.labelCEffectOne.Text = " Comic Light";
+            this.lblTimerSec.AutoSize = true;
+            this.lblTimerSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimerSec.ForeColor = System.Drawing.Color.Blue;
+            this.lblTimerSec.Location = new System.Drawing.Point(996, 63);
+            this.lblTimerSec.Name = "lblTimerSec";
+            this.lblTimerSec.Size = new System.Drawing.Size(41, 29);
+            this.lblTimerSec.TabIndex = 16;
+            this.lblTimerSec.Text = "00";
             // 
-            // label5
+            // timerLoading
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(191, 161);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 18);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Comic Dark";
+            this.timerLoading.Interval = 1000;
+            this.timerLoading.Tick += new System.EventHandler(this.timerLoading_Tick);
             // 
-            // label11
+            // pictureBox1
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(37, 348);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(100, 18);
-            this.label11.TabIndex = 6;
-            this.label11.Text = "Rock N Roll";
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(912, 99);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(56, 78);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
             // 
-            // label12
+            // label1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(214, 348);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(53, 18);
-            this.label12.TabIndex = 7;
-            this.label12.Text = "Aliens";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(907, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(130, 29);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Time Left ";
             // 
-            // btnCSwapOne
+            // pictureBox2
             // 
-            this.btnCSwapOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapOne.BackgroundImage")));
-            this.btnCSwapOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCSwapOne.Location = new System.Drawing.Point(18, 19);
-            this.btnCSwapOne.Name = "btnCSwapOne";
-            this.btnCSwapOne.Size = new System.Drawing.Size(133, 102);
-            this.btnCSwapOne.TabIndex = 0;
-            this.btnCSwapOne.UseVisualStyleBackColor = true;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(869, 24);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(32, 36);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 19;
+            this.pictureBox2.TabStop = false;
             // 
-            // btnCSwapTwo
+            // btnCardPhoto
             // 
-            this.btnCSwapTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapTwo.BackgroundImage")));
-            this.btnCSwapTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCSwapTwo.Location = new System.Drawing.Point(173, 19);
-            this.btnCSwapTwo.Name = "btnCSwapTwo";
-            this.btnCSwapTwo.Size = new System.Drawing.Size(133, 102);
-            this.btnCSwapTwo.TabIndex = 1;
-            this.btnCSwapTwo.UseVisualStyleBackColor = true;
+            this.btnCardPhoto.Location = new System.Drawing.Point(882, 585);
+            this.btnCardPhoto.Name = "btnCardPhoto";
+            this.btnCardPhoto.Size = new System.Drawing.Size(117, 44);
+            this.btnCardPhoto.TabIndex = 20;
+            this.btnCardPhoto.Text = "Display Card Photo";
+            this.btnCardPhoto.UseVisualStyleBackColor = true;
+            this.btnCardPhoto.Click += new System.EventHandler(this.btnCardPhoto_Click);
             // 
-            // btnCSwapThree
+            // lblCard
             // 
-            this.btnCSwapThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapThree.BackgroundImage")));
-            this.btnCSwapThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCSwapThree.Location = new System.Drawing.Point(18, 155);
-            this.btnCSwapThree.Name = "btnCSwapThree";
-            this.btnCSwapThree.Size = new System.Drawing.Size(133, 97);
-            this.btnCSwapThree.TabIndex = 2;
-            this.btnCSwapThree.UseVisualStyleBackColor = true;
+            this.lblCard.AutoSize = true;
+            this.lblCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCard.Location = new System.Drawing.Point(445, 95);
+            this.lblCard.Name = "lblCard";
+            this.lblCard.Size = new System.Drawing.Size(107, 24);
+            this.lblCard.TabIndex = 21;
+            this.lblCard.Text = "Our Card :";
             // 
-            // btnCSwapFour
+            // picBoxCard
             // 
-            this.btnCSwapFour.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapFour.BackgroundImage")));
-            this.btnCSwapFour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCSwapFour.Location = new System.Drawing.Point(173, 155);
-            this.btnCSwapFour.Name = "btnCSwapFour";
-            this.btnCSwapFour.Size = new System.Drawing.Size(133, 97);
-            this.btnCSwapFour.TabIndex = 3;
-            this.btnCSwapFour.UseVisualStyleBackColor = true;
+            this.picBoxCard.Image = ((System.Drawing.Image)(resources.GetObject("picBoxCard.Image")));
+            this.picBoxCard.Location = new System.Drawing.Point(581, 38);
+            this.picBoxCard.Name = "picBoxCard";
+            this.picBoxCard.Size = new System.Drawing.Size(245, 139);
+            this.picBoxCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxCard.TabIndex = 22;
+            this.picBoxCard.TabStop = false;
             // 
-            // btnCSwapFive
+            // label28
             // 
-            this.btnCSwapFive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnCSwapFive.BackgroundImage")));
-            this.btnCSwapFive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnCSwapFive.Location = new System.Drawing.Point(18, 290);
-            this.btnCSwapFive.Name = "btnCSwapFive";
-            this.btnCSwapFive.Size = new System.Drawing.Size(133, 92);
-            this.btnCSwapFive.TabIndex = 4;
-            this.btnCSwapFive.UseVisualStyleBackColor = true;
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(435, 119);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(130, 24);
+            this.label28.TabIndex = 23;
+            this.label28.Text = "(MasterCard)";
             // 
-            // label13
+            // btnProceed
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(9, 124);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(142, 18);
-            this.label13.TabIndex = 5;
-            this.label13.Text = "Golden Memories";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(194, 124);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(91, 18);
-            this.label14.TabIndex = 6;
-            this.label14.Text = "Hulk Effect";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(43, 385);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(81, 18);
-            this.label15.TabIndex = 7;
-            this.label15.Text = "Toxicated";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(206, 253);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(69, 18);
-            this.label16.TabIndex = 8;
-            this.label16.Text = "Purplish";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(59, 253);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(50, 18);
-            this.label17.TabIndex = 9;
-            this.label17.Text = "Blues";
-            // 
-            // btnArtEffectOne
-            // 
-            this.btnArtEffectOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnArtEffectOne.BackgroundImage")));
-            this.btnArtEffectOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnArtEffectOne.Location = new System.Drawing.Point(94, 21);
-            this.btnArtEffectOne.Name = "btnArtEffectOne";
-            this.btnArtEffectOne.Size = new System.Drawing.Size(139, 90);
-            this.btnArtEffectOne.TabIndex = 0;
-            this.btnArtEffectOne.UseVisualStyleBackColor = true;
-            // 
-            // btnArtEffectTwo
-            // 
-            this.btnArtEffectTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnArtEffectTwo.BackgroundImage")));
-            this.btnArtEffectTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnArtEffectTwo.Location = new System.Drawing.Point(94, 156);
-            this.btnArtEffectTwo.Name = "btnArtEffectTwo";
-            this.btnArtEffectTwo.Size = new System.Drawing.Size(139, 90);
-            this.btnArtEffectTwo.TabIndex = 1;
-            this.btnArtEffectTwo.UseVisualStyleBackColor = true;
-            // 
-            // btnArtEffectThree
-            // 
-            this.btnArtEffectThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnArtEffectThree.BackgroundImage")));
-            this.btnArtEffectThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnArtEffectThree.Location = new System.Drawing.Point(94, 286);
-            this.btnArtEffectThree.Name = "btnArtEffectThree";
-            this.btnArtEffectThree.Size = new System.Drawing.Size(139, 90);
-            this.btnArtEffectThree.TabIndex = 2;
-            this.btnArtEffectThree.UseVisualStyleBackColor = true;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(114, 114);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(104, 18);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "Nippon Paint";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(122, 249);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(93, 18);
-            this.label19.TabIndex = 4;
-            this.label19.Text = "Dulux Paint";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(122, 379);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(92, 18);
-            this.label20.TabIndex = 5;
-            this.label20.Text = "Coral Paint";
+            this.btnProceed.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProceed.Location = new System.Drawing.Point(668, 582);
+            this.btnProceed.Name = "btnProceed";
+            this.btnProceed.Size = new System.Drawing.Size(113, 48);
+            this.btnProceed.TabIndex = 24;
+            this.btnProceed.Text = "Proceed";
+            this.btnProceed.UseVisualStyleBackColor = true;
+            this.btnProceed.Click += new System.EventHandler(this.btnProceed_Click);
             // 
             // myGroupBox1
             // 
             this.myGroupBox1.BorderColor = System.Drawing.Color.Purple;
-            this.myGroupBox1.Controls.Add(this.tabFilters);
+            this.myGroupBox1.Controls.Add(this.panelTextInsert);
+            this.myGroupBox1.Controls.Add(this.rBtnText);
+            this.myGroupBox1.Controls.Add(this.rBtnFilters);
+            this.myGroupBox1.Controls.Add(this.panelFilters);
             this.myGroupBox1.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.myGroupBox1.Location = new System.Drawing.Point(1059, 379);
+            this.myGroupBox1.Location = new System.Drawing.Point(1059, 364);
             this.myGroupBox1.Name = "myGroupBox1";
-            this.myGroupBox1.Size = new System.Drawing.Size(326, 360);
+            this.myGroupBox1.Size = new System.Drawing.Size(349, 440);
             this.myGroupBox1.TabIndex = 11;
             this.myGroupBox1.TabStop = false;
-            this.myGroupBox1.Text = "Filters";
+            this.myGroupBox1.Text = "Extra Effect";
+            // 
+            // panelTextInsert
+            // 
+            this.panelTextInsert.Controls.Add(this.btnApplyText);
+            this.panelTextInsert.Controls.Add(this.cBoxTextColor);
+            this.panelTextInsert.Controls.Add(this.label25);
+            this.panelTextInsert.Controls.Add(this.cBoxTextLocation);
+            this.panelTextInsert.Controls.Add(this.label24);
+            this.panelTextInsert.Controls.Add(this.textInserting);
+            this.panelTextInsert.Controls.Add(this.label23);
+            this.panelTextInsert.Controls.Add(this.cBoxFontStyle);
+            this.panelTextInsert.Controls.Add(this.label22);
+            this.panelTextInsert.Controls.Add(this.cBoxFontSize);
+            this.panelTextInsert.Controls.Add(this.label21);
+            this.panelTextInsert.Controls.Add(this.cBoxFont);
+            this.panelTextInsert.Controls.Add(this.label9);
+            this.panelTextInsert.Location = new System.Drawing.Point(17, 62);
+            this.panelTextInsert.Name = "panelTextInsert";
+            this.panelTextInsert.Size = new System.Drawing.Size(326, 372);
+            this.panelTextInsert.TabIndex = 4;
+            // 
+            // btnApplyText
+            // 
+            this.btnApplyText.Location = new System.Drawing.Point(80, 320);
+            this.btnApplyText.Name = "btnApplyText";
+            this.btnApplyText.Size = new System.Drawing.Size(145, 32);
+            this.btnApplyText.TabIndex = 12;
+            this.btnApplyText.Text = "Apply Text";
+            this.btnApplyText.UseVisualStyleBackColor = true;
+            this.btnApplyText.Click += new System.EventHandler(this.btnApplyText_Click);
+            // 
+            // cBoxTextColor
+            // 
+            this.cBoxTextColor.FormattingEnabled = true;
+            this.cBoxTextColor.Location = new System.Drawing.Point(126, 253);
+            this.cBoxTextColor.Name = "cBoxTextColor";
+            this.cBoxTextColor.Size = new System.Drawing.Size(190, 33);
+            this.cBoxTextColor.TabIndex = 11;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(9, 258);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(94, 21);
+            this.label25.TabIndex = 10;
+            this.label25.Text = "Text Color:";
+            // 
+            // cBoxTextLocation
+            // 
+            this.cBoxTextLocation.FormattingEnabled = true;
+            this.cBoxTextLocation.Location = new System.Drawing.Point(126, 208);
+            this.cBoxTextLocation.Name = "cBoxTextLocation";
+            this.cBoxTextLocation.Size = new System.Drawing.Size(190, 33);
+            this.cBoxTextLocation.TabIndex = 9;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(8, 213);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(117, 21);
+            this.label24.TabIndex = 8;
+            this.label24.Text = "Text Location:";
+            // 
+            // textInserting
+            // 
+            this.textInserting.Location = new System.Drawing.Point(80, 157);
+            this.textInserting.Name = "textInserting";
+            this.textInserting.Size = new System.Drawing.Size(236, 31);
+            this.textInserting.TabIndex = 7;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(8, 162);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(51, 21);
+            this.label23.TabIndex = 6;
+            this.label23.Text = "Text:";
+            // 
+            // cBoxFontStyle
+            // 
+            this.cBoxFontStyle.FormattingEnabled = true;
+            this.cBoxFontStyle.Location = new System.Drawing.Point(126, 111);
+            this.cBoxFontStyle.Name = "cBoxFontStyle";
+            this.cBoxFontStyle.Size = new System.Drawing.Size(190, 33);
+            this.cBoxFontStyle.TabIndex = 5;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(8, 116);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(93, 21);
+            this.label22.TabIndex = 4;
+            this.label22.Text = "Font Style:";
+            // 
+            // cBoxFontSize
+            // 
+            this.cBoxFontSize.FormattingEnabled = true;
+            this.cBoxFontSize.Location = new System.Drawing.Point(126, 59);
+            this.cBoxFontSize.Name = "cBoxFontSize";
+            this.cBoxFontSize.Size = new System.Drawing.Size(190, 33);
+            this.cBoxFontSize.TabIndex = 3;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(8, 64);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(86, 21);
+            this.label21.TabIndex = 2;
+            this.label21.Text = "Font Size:";
+            // 
+            // cBoxFont
+            // 
+            this.cBoxFont.FormattingEnabled = true;
+            this.cBoxFont.Location = new System.Drawing.Point(126, 10);
+            this.cBoxFont.Name = "cBoxFont";
+            this.cBoxFont.Size = new System.Drawing.Size(190, 33);
+            this.cBoxFont.TabIndex = 1;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(9, 15);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(49, 21);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Font:";
+            // 
+            // rBtnText
+            // 
+            this.rBtnText.AutoSize = true;
+            this.rBtnText.Checked = true;
+            this.rBtnText.Location = new System.Drawing.Point(191, 30);
+            this.rBtnText.Name = "rBtnText";
+            this.rBtnText.Size = new System.Drawing.Size(73, 29);
+            this.rBtnText.TabIndex = 3;
+            this.rBtnText.TabStop = true;
+            this.rBtnText.Text = "Text";
+            this.rBtnText.UseVisualStyleBackColor = true;
+            this.rBtnText.CheckedChanged += new System.EventHandler(this.rBtnText_CheckedChanged);
+            // 
+            // rBtnFilters
+            // 
+            this.rBtnFilters.AutoSize = true;
+            this.rBtnFilters.Location = new System.Drawing.Point(51, 30);
+            this.rBtnFilters.Name = "rBtnFilters";
+            this.rBtnFilters.Size = new System.Drawing.Size(87, 29);
+            this.rBtnFilters.TabIndex = 2;
+            this.rBtnFilters.Text = "Filters";
+            this.rBtnFilters.UseVisualStyleBackColor = true;
+            this.rBtnFilters.CheckedChanged += new System.EventHandler(this.rBtnFilters_CheckedChanged);
+            // 
+            // panelFilters
+            // 
+            this.panelFilters.Controls.Add(this.tabFilters);
+            this.panelFilters.Location = new System.Drawing.Point(17, 65);
+            this.panelFilters.Name = "panelFilters";
+            this.panelFilters.Size = new System.Drawing.Size(326, 369);
+            this.panelFilters.TabIndex = 12;
             // 
             // tabFilters
             // 
             this.tabFilters.Alignment = System.Windows.Forms.TabAlignment.Left;
             this.tabFilters.Controls.Add(this.tabFilterOne);
             this.tabFilters.Controls.Add(this.tabFilterTwo);
-            this.tabFilters.Controls.Add(this.tabFilterThree);
-            this.tabFilters.Location = new System.Drawing.Point(9, 30);
+            this.tabFilters.Location = new System.Drawing.Point(8, 3);
             this.tabFilters.Multiline = true;
             this.tabFilters.Name = "tabFilters";
             this.tabFilters.SelectedIndex = 0;
-            this.tabFilters.Size = new System.Drawing.Size(291, 306);
+            this.tabFilters.Size = new System.Drawing.Size(308, 363);
             this.tabFilters.TabIndex = 0;
             // 
             // tabFilterOne
             // 
             this.tabFilterOne.BackColor = System.Drawing.SystemColors.Control;
+            this.tabFilterOne.Controls.Add(this.btnOverlaySix);
+            this.tabFilterOne.Controls.Add(this.btnOverlayFive);
+            this.tabFilterOne.Controls.Add(this.btnOverlayFour);
+            this.tabFilterOne.Controls.Add(this.btnOverlayThree);
+            this.tabFilterOne.Controls.Add(this.btnOverlayTwo);
+            this.tabFilterOne.Controls.Add(this.btnOverlayOne);
             this.tabFilterOne.Location = new System.Drawing.Point(34, 4);
             this.tabFilterOne.Name = "tabFilterOne";
-            this.tabFilterOne.Size = new System.Drawing.Size(253, 298);
+            this.tabFilterOne.Size = new System.Drawing.Size(270, 355);
             this.tabFilterOne.TabIndex = 2;
             this.tabFilterOne.Text = "Popular";
+            // 
+            // btnOverlaySix
+            // 
+            this.btnOverlaySix.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlaySix.BackgroundImage")));
+            this.btnOverlaySix.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlaySix.Location = new System.Drawing.Point(155, 238);
+            this.btnOverlaySix.Name = "btnOverlaySix";
+            this.btnOverlaySix.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlaySix.TabIndex = 5;
+            this.btnOverlaySix.UseVisualStyleBackColor = true;
+            this.btnOverlaySix.Click += new System.EventHandler(this.btnOverlaySix_Click);
+            // 
+            // btnOverlayFive
+            // 
+            this.btnOverlayFive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayFive.BackgroundImage")));
+            this.btnOverlayFive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayFive.Location = new System.Drawing.Point(24, 238);
+            this.btnOverlayFive.Name = "btnOverlayFive";
+            this.btnOverlayFive.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayFive.TabIndex = 4;
+            this.btnOverlayFive.UseVisualStyleBackColor = true;
+            this.btnOverlayFive.Click += new System.EventHandler(this.btnOverlayFive_Click);
+            // 
+            // btnOverlayFour
+            // 
+            this.btnOverlayFour.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayFour.BackgroundImage")));
+            this.btnOverlayFour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayFour.Location = new System.Drawing.Point(155, 127);
+            this.btnOverlayFour.Name = "btnOverlayFour";
+            this.btnOverlayFour.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayFour.TabIndex = 3;
+            this.btnOverlayFour.UseVisualStyleBackColor = true;
+            this.btnOverlayFour.Click += new System.EventHandler(this.btnOverlayFour_Click);
+            // 
+            // btnOverlayThree
+            // 
+            this.btnOverlayThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayThree.BackgroundImage")));
+            this.btnOverlayThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayThree.Location = new System.Drawing.Point(24, 127);
+            this.btnOverlayThree.Name = "btnOverlayThree";
+            this.btnOverlayThree.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayThree.TabIndex = 2;
+            this.btnOverlayThree.UseVisualStyleBackColor = true;
+            this.btnOverlayThree.Click += new System.EventHandler(this.btnOverlayThree_Click);
+            // 
+            // btnOverlayTwo
+            // 
+            this.btnOverlayTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayTwo.BackgroundImage")));
+            this.btnOverlayTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayTwo.Location = new System.Drawing.Point(155, 20);
+            this.btnOverlayTwo.Name = "btnOverlayTwo";
+            this.btnOverlayTwo.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayTwo.TabIndex = 1;
+            this.btnOverlayTwo.UseVisualStyleBackColor = true;
+            this.btnOverlayTwo.Click += new System.EventHandler(this.btnOverlayTwo_Click);
+            // 
+            // btnOverlayOne
+            // 
+            this.btnOverlayOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayOne.BackgroundImage")));
+            this.btnOverlayOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayOne.Location = new System.Drawing.Point(24, 20);
+            this.btnOverlayOne.Name = "btnOverlayOne";
+            this.btnOverlayOne.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayOne.TabIndex = 0;
+            this.btnOverlayOne.UseVisualStyleBackColor = true;
+            this.btnOverlayOne.Click += new System.EventHandler(this.btnOverlayOne_Click);
             // 
             // tabFilterTwo
             // 
             this.tabFilterTwo.BackColor = System.Drawing.SystemColors.Control;
+            this.tabFilterTwo.Controls.Add(this.btnOverlayBasSix);
+            this.tabFilterTwo.Controls.Add(this.btnOverlayBasFive);
+            this.tabFilterTwo.Controls.Add(this.btnOverlayBasFour);
+            this.tabFilterTwo.Controls.Add(this.btnOverlayBasThree);
+            this.tabFilterTwo.Controls.Add(this.btnOverlayBasTwo);
+            this.tabFilterTwo.Controls.Add(this.btnOverlayBasOne);
             this.tabFilterTwo.Location = new System.Drawing.Point(34, 4);
             this.tabFilterTwo.Name = "tabFilterTwo";
-            this.tabFilterTwo.Size = new System.Drawing.Size(253, 298);
+            this.tabFilterTwo.Size = new System.Drawing.Size(270, 355);
             this.tabFilterTwo.TabIndex = 1;
             this.tabFilterTwo.Text = "Basic";
             // 
-            // tabFilterThree
+            // btnOverlayBasSix
             // 
-            this.tabFilterThree.BackColor = System.Drawing.SystemColors.Control;
-            this.tabFilterThree.Location = new System.Drawing.Point(34, 4);
-            this.tabFilterThree.Name = "tabFilterThree";
-            this.tabFilterThree.Size = new System.Drawing.Size(253, 298);
-            this.tabFilterThree.TabIndex = 0;
-            this.tabFilterThree.Text = "Style";
+            this.btnOverlayBasSix.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayBasSix.BackgroundImage")));
+            this.btnOverlayBasSix.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayBasSix.Location = new System.Drawing.Point(142, 232);
+            this.btnOverlayBasSix.Name = "btnOverlayBasSix";
+            this.btnOverlayBasSix.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayBasSix.TabIndex = 5;
+            this.btnOverlayBasSix.UseVisualStyleBackColor = true;
+            this.btnOverlayBasSix.Click += new System.EventHandler(this.btnOverlayBasSix_Click);
+            // 
+            // btnOverlayBasFive
+            // 
+            this.btnOverlayBasFive.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayBasFive.BackgroundImage")));
+            this.btnOverlayBasFive.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayBasFive.Location = new System.Drawing.Point(22, 232);
+            this.btnOverlayBasFive.Name = "btnOverlayBasFive";
+            this.btnOverlayBasFive.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayBasFive.TabIndex = 4;
+            this.btnOverlayBasFive.UseVisualStyleBackColor = true;
+            this.btnOverlayBasFive.Click += new System.EventHandler(this.btnOverlayBasFive_Click);
+            // 
+            // btnOverlayBasFour
+            // 
+            this.btnOverlayBasFour.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayBasFour.BackgroundImage")));
+            this.btnOverlayBasFour.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayBasFour.Location = new System.Drawing.Point(142, 123);
+            this.btnOverlayBasFour.Name = "btnOverlayBasFour";
+            this.btnOverlayBasFour.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayBasFour.TabIndex = 3;
+            this.btnOverlayBasFour.UseVisualStyleBackColor = true;
+            this.btnOverlayBasFour.Click += new System.EventHandler(this.btnOverlayBasFour_Click);
+            // 
+            // btnOverlayBasThree
+            // 
+            this.btnOverlayBasThree.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayBasThree.BackgroundImage")));
+            this.btnOverlayBasThree.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayBasThree.Location = new System.Drawing.Point(22, 124);
+            this.btnOverlayBasThree.Name = "btnOverlayBasThree";
+            this.btnOverlayBasThree.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayBasThree.TabIndex = 2;
+            this.btnOverlayBasThree.UseVisualStyleBackColor = true;
+            this.btnOverlayBasThree.Click += new System.EventHandler(this.btnOverlayBasThree_Click);
+            // 
+            // btnOverlayBasTwo
+            // 
+            this.btnOverlayBasTwo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayBasTwo.BackgroundImage")));
+            this.btnOverlayBasTwo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayBasTwo.Location = new System.Drawing.Point(142, 18);
+            this.btnOverlayBasTwo.Name = "btnOverlayBasTwo";
+            this.btnOverlayBasTwo.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayBasTwo.TabIndex = 1;
+            this.btnOverlayBasTwo.UseVisualStyleBackColor = true;
+            this.btnOverlayBasTwo.Click += new System.EventHandler(this.btnOverlayBasTwo_Click);
+            // 
+            // btnOverlayBasOne
+            // 
+            this.btnOverlayBasOne.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOverlayBasOne.BackgroundImage")));
+            this.btnOverlayBasOne.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnOverlayBasOne.Location = new System.Drawing.Point(22, 18);
+            this.btnOverlayBasOne.Name = "btnOverlayBasOne";
+            this.btnOverlayBasOne.Size = new System.Drawing.Size(107, 85);
+            this.btnOverlayBasOne.TabIndex = 0;
+            this.btnOverlayBasOne.UseVisualStyleBackColor = true;
+            this.btnOverlayBasOne.Click += new System.EventHandler(this.btnOverlayBasOne_Click);
             // 
             // groupBoxPrevImage
             // 
@@ -1012,7 +1480,7 @@
             this.groupBoxPrevImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxPrevImage.Location = new System.Drawing.Point(449, 205);
             this.groupBoxPrevImage.Name = "groupBoxPrevImage";
-            this.groupBoxPrevImage.Size = new System.Drawing.Size(543, 316);
+            this.groupBoxPrevImage.Size = new System.Drawing.Size(556, 358);
             this.groupBoxPrevImage.TabIndex = 10;
             this.groupBoxPrevImage.TabStop = false;
             this.groupBoxPrevImage.Text = "Preview Image";
@@ -1021,7 +1489,7 @@
             // 
             this.previewImgBox.Location = new System.Drawing.Point(6, 29);
             this.previewImgBox.Name = "previewImgBox";
-            this.previewImgBox.Size = new System.Drawing.Size(531, 281);
+            this.previewImgBox.Size = new System.Drawing.Size(544, 323);
             this.previewImgBox.TabIndex = 0;
             this.previewImgBox.TabStop = false;
             // 
@@ -1033,7 +1501,7 @@
             this.groupBoxFrame.Font = new System.Drawing.Font("Comic Sans MS", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBoxFrame.Location = new System.Drawing.Point(1059, 22);
             this.groupBoxFrame.Name = "groupBoxFrame";
-            this.groupBoxFrame.Size = new System.Drawing.Size(326, 332);
+            this.groupBoxFrame.Size = new System.Drawing.Size(349, 323);
             this.groupBoxFrame.TabIndex = 9;
             this.groupBoxFrame.TabStop = false;
             this.groupBoxFrame.Text = "Frame";
@@ -1045,7 +1513,7 @@
             this.panelFrameOne.Controls.Add(this.btnFrameThree);
             this.panelFrameOne.Controls.Add(this.btnFrameTwo);
             this.panelFrameOne.Controls.Add(this.btnFrameOne);
-            this.panelFrameOne.Location = new System.Drawing.Point(9, 26);
+            this.panelFrameOne.Location = new System.Drawing.Point(25, 23);
             this.panelFrameOne.Name = "panelFrameOne";
             this.panelFrameOne.Size = new System.Drawing.Size(299, 283);
             this.panelFrameOne.TabIndex = 0;
@@ -1069,6 +1537,7 @@
             this.btnFrameFour.Size = new System.Drawing.Size(125, 84);
             this.btnFrameFour.TabIndex = 3;
             this.btnFrameFour.UseVisualStyleBackColor = true;
+            this.btnFrameFour.Click += new System.EventHandler(this.btnFrameFour_Click);
             // 
             // btnFrameThree
             // 
@@ -1079,6 +1548,7 @@
             this.btnFrameThree.Size = new System.Drawing.Size(126, 84);
             this.btnFrameThree.TabIndex = 2;
             this.btnFrameThree.UseVisualStyleBackColor = true;
+            this.btnFrameThree.Click += new System.EventHandler(this.btnFrameThree_Click);
             // 
             // btnFrameTwo
             // 
@@ -1089,6 +1559,7 @@
             this.btnFrameTwo.Size = new System.Drawing.Size(125, 89);
             this.btnFrameTwo.TabIndex = 1;
             this.btnFrameTwo.UseVisualStyleBackColor = true;
+            this.btnFrameTwo.Click += new System.EventHandler(this.btnFrameTwo_Click);
             // 
             // btnFrameOne
             // 
@@ -1100,6 +1571,7 @@
             this.btnFrameOne.TabIndex = 0;
             this.btnFrameOne.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnFrameOne.UseVisualStyleBackColor = true;
+            this.btnFrameOne.Click += new System.EventHandler(this.btnFrameOne_Click);
             // 
             // panelFrameTwo
             // 
@@ -1108,7 +1580,7 @@
             this.panelFrameTwo.Controls.Add(this.btnFrameSeven);
             this.panelFrameTwo.Controls.Add(this.btnFrameSix);
             this.panelFrameTwo.Controls.Add(this.btnFrameFive);
-            this.panelFrameTwo.Location = new System.Drawing.Point(9, 26);
+            this.panelFrameTwo.Location = new System.Drawing.Point(25, 26);
             this.panelFrameTwo.Name = "panelFrameTwo";
             this.panelFrameTwo.Size = new System.Drawing.Size(299, 283);
             this.panelFrameTwo.TabIndex = 9;
@@ -1133,6 +1605,7 @@
             this.btnFrameEight.Size = new System.Drawing.Size(123, 84);
             this.btnFrameEight.TabIndex = 3;
             this.btnFrameEight.UseVisualStyleBackColor = true;
+            this.btnFrameEight.Click += new System.EventHandler(this.btnFrameEight_Click);
             // 
             // btnFrameSeven
             // 
@@ -1143,6 +1616,7 @@
             this.btnFrameSeven.Size = new System.Drawing.Size(116, 84);
             this.btnFrameSeven.TabIndex = 2;
             this.btnFrameSeven.UseVisualStyleBackColor = true;
+            this.btnFrameSeven.Click += new System.EventHandler(this.btnFrameSeven_Click);
             // 
             // btnFrameSix
             // 
@@ -1153,6 +1627,7 @@
             this.btnFrameSix.Size = new System.Drawing.Size(123, 89);
             this.btnFrameSix.TabIndex = 1;
             this.btnFrameSix.UseVisualStyleBackColor = true;
+            this.btnFrameSix.Click += new System.EventHandler(this.btnFrameSix_Click);
             // 
             // btnFrameFive
             // 
@@ -1163,23 +1638,32 @@
             this.btnFrameFive.Size = new System.Drawing.Size(116, 89);
             this.btnFrameFive.TabIndex = 0;
             this.btnFrameFive.UseVisualStyleBackColor = true;
+            this.btnFrameFive.Click += new System.EventHandler(this.btnFrameFive_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1420, 785);
-            this.Controls.Add(this.myGroupBox1);
-            this.Controls.Add(this.cmbFilterSize);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.groupBoxPrevImage);
-            this.Controls.Add(this.cmbColorSwapping);
-            this.Controls.Add(this.groupBoxFrame);
+            this.ClientSize = new System.Drawing.Size(1444, 830);
+            this.Controls.Add(this.btnProceed);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.picBoxCard);
+            this.Controls.Add(this.lblCard);
+            this.Controls.Add(this.btnCardPhoto);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.cmbCartoonEffect);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lblTimerSec);
+            this.Controls.Add(this.label27);
+            this.Controls.Add(this.lblTimerMin);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.lblTimerHour);
+            this.Controls.Add(this.buttonResetDefault);
+            this.Controls.Add(this.myGroupBox1);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBoxPrevImage);
+            this.Controls.Add(this.groupBoxFrame);
             this.Controls.Add(this.tabImageProcess);
-            this.Controls.Add(this.lblCartoonEffect);
             this.Controls.Add(this.gBoxStepTwo);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1189,6 +1673,7 @@
             this.gBoxStepTwo.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.tabFeatures.ResumeLayout(false);
             this.tabCartoonEffect.ResumeLayout(false);
             this.tabCartoonEffect.PerformLayout();
@@ -1212,8 +1697,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaBlue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaGreen)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trcGammaRed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxCard)).EndInit();
             this.myGroupBox1.ResumeLayout(false);
+            this.myGroupBox1.PerformLayout();
+            this.panelTextInsert.ResumeLayout(false);
+            this.panelTextInsert.PerformLayout();
+            this.panelFilters.ResumeLayout(false);
             this.tabFilters.ResumeLayout(false);
+            this.tabFilterOne.ResumeLayout(false);
+            this.tabFilterTwo.ResumeLayout(false);
             this.groupBoxPrevImage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.previewImgBox)).EndInit();
             this.groupBoxFrame.ResumeLayout(false);
@@ -1230,15 +1724,9 @@
         private System.Windows.Forms.Label lblInstructTwo;
         private System.Windows.Forms.PictureBox previewImgBox;
         private System.Windows.Forms.ImageList imgGradient;
-        private System.Windows.Forms.Label lblCartoonEffect;
-        private System.Windows.Forms.ComboBox cmbCartoonEffect;
         private System.Windows.Forms.ImageList imageIconTab;
-        private System.Windows.Forms.ComboBox cmbColorSwapping;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.CheckBox cBoxFizzyBlur;
-        private System.Windows.Forms.ComboBox cmbFilterSize;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Label lblThresholdValue;
         private System.Windows.Forms.TrackBar trcBitonal;
@@ -1288,7 +1776,6 @@
         private System.Windows.Forms.TabControl tabFilters;
         private System.Windows.Forms.TabPage tabFilterOne;
         private System.Windows.Forms.TabPage tabFilterTwo;
-        private System.Windows.Forms.TabPage tabFilterThree;
         private System.Windows.Forms.TabControl tabFeatures;
         private System.Windows.Forms.TabPage tabCartoonEffect;
         private System.Windows.Forms.TabPage tabColorSwapping;
@@ -1317,6 +1804,52 @@
         private System.Windows.Forms.Button btnArtEffectThree;
         private System.Windows.Forms.Button btnArtEffectTwo;
         private System.Windows.Forms.Button btnArtEffectOne;
+        private System.Windows.Forms.Button buttonResetDefault;
+        private System.Windows.Forms.CheckBox cBoxRemoveFrame;
+        private System.Windows.Forms.RadioButton rBtnText;
+        private System.Windows.Forms.RadioButton rBtnFilters;
+        private System.Windows.Forms.Panel panelTextInsert;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.ComboBox cBoxTextLocation;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox textInserting;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.ComboBox cBoxFontStyle;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.ComboBox cBoxFontSize;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.ComboBox cBoxFont;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox cBoxTextColor;
+        private System.Windows.Forms.Button btnApplyText;
+        private System.Windows.Forms.Panel panelFilters;
+        private System.Windows.Forms.Button btnOverlaySix;
+        private System.Windows.Forms.Button btnOverlayFive;
+        private System.Windows.Forms.Button btnOverlayFour;
+        private System.Windows.Forms.Button btnOverlayThree;
+        private System.Windows.Forms.Button btnOverlayTwo;
+        private System.Windows.Forms.Button btnOverlayOne;
+        private System.Windows.Forms.Button btnOverlayBasSix;
+        private System.Windows.Forms.Button btnOverlayBasFive;
+        private System.Windows.Forms.Button btnOverlayBasFour;
+        private System.Windows.Forms.Button btnOverlayBasThree;
+        private System.Windows.Forms.Button btnOverlayBasTwo;
+        private System.Windows.Forms.Button btnOverlayBasOne;
+        private System.Windows.Forms.Label lblTimerHour;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label lblTimerMin;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label lblTimerSec;
+        private System.Windows.Forms.Timer timerLoading;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button btnCardPhoto;
+        private System.Windows.Forms.Label lblCard;
+        private System.Windows.Forms.PictureBox picBoxCard;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Button btnProceed;
 
     }
 }

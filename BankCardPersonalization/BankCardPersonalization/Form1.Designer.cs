@@ -49,20 +49,25 @@
             this.lblTimerHour = new System.Windows.Forms.Label();
             this.btnImgProNext = new System.Windows.Forms.Button();
             this.buttonImgGallery = new System.Windows.Forms.Button();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timerLoad = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.ImgSelectPanel.SuspendLayout();
             this.gBoxStepOne.SuspendLayout();
             this.grpSelectedImg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.selectedImageBox)).BeginInit();
             this.panelImgGallery.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // ImgSelectPanel
             // 
             this.ImgSelectPanel.BackColor = System.Drawing.Color.Silver;
+            this.ImgSelectPanel.Controls.Add(this.pictureBox2);
+            this.ImgSelectPanel.Controls.Add(this.pictureBox1);
+            this.ImgSelectPanel.Controls.Add(this.label1);
             this.ImgSelectPanel.Controls.Add(this.btnRotate);
             this.ImgSelectPanel.Controls.Add(this.btnImgRandom);
             this.ImgSelectPanel.Controls.Add(this.buttonSelectImg);
@@ -76,7 +81,6 @@
             this.ImgSelectPanel.Controls.Add(this.lblTimerHour);
             this.ImgSelectPanel.Controls.Add(this.btnImgProNext);
             this.ImgSelectPanel.Controls.Add(this.buttonImgGallery);
-            this.ImgSelectPanel.Controls.Add(this.menuStrip1);
             this.ImgSelectPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ImgSelectPanel.Location = new System.Drawing.Point(0, 0);
             this.ImgSelectPanel.Name = "ImgSelectPanel";
@@ -215,6 +219,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTimerSec.AutoSize = true;
             this.lblTimerSec.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimerSec.ForeColor = System.Drawing.Color.Blue;
             this.lblTimerSec.Location = new System.Drawing.Point(1035, 94);
             this.lblTimerSec.Name = "lblTimerSec";
             this.lblTimerSec.Size = new System.Drawing.Size(49, 32);
@@ -228,6 +233,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDotTwo.AutoSize = true;
             this.lblDotTwo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDotTwo.ForeColor = System.Drawing.Color.Blue;
             this.lblDotTwo.Location = new System.Drawing.Point(1005, 90);
             this.lblDotTwo.Name = "lblDotTwo";
             this.lblDotTwo.Size = new System.Drawing.Size(24, 36);
@@ -241,6 +247,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTimerMin.AutoSize = true;
             this.lblTimerMin.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimerMin.ForeColor = System.Drawing.Color.Blue;
             this.lblTimerMin.Location = new System.Drawing.Point(950, 93);
             this.lblTimerMin.Name = "lblTimerMin";
             this.lblTimerMin.Size = new System.Drawing.Size(49, 32);
@@ -254,6 +261,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDotOne.AutoSize = true;
             this.lblDotOne.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDotOne.ForeColor = System.Drawing.Color.Blue;
             this.lblDotOne.Location = new System.Drawing.Point(920, 91);
             this.lblDotOne.Name = "lblDotOne";
             this.lblDotOne.Size = new System.Drawing.Size(24, 36);
@@ -267,6 +275,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTimerHour.AutoSize = true;
             this.lblTimerHour.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimerHour.ForeColor = System.Drawing.Color.Blue;
             this.lblTimerHour.Location = new System.Drawing.Point(865, 93);
             this.lblTimerHour.Name = "lblTimerHour";
             this.lblTimerHour.Size = new System.Drawing.Size(49, 32);
@@ -299,30 +308,40 @@
             this.buttonImgGallery.UseVisualStyleBackColor = false;
             this.buttonImgGallery.Click += new System.EventHandler(this.buttonImgGallery_Click);
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.Color.Gainsboro;
-            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
-            this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1122, 28);
-            this.menuStrip1.TabIndex = 10;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // fileToolStripMenuItem
-            // 
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(45, 24);
-            this.fileToolStripMenuItem.Text = "File";
-            // 
             // timerLoad
             // 
             this.timerLoad.Interval = 1000;
             this.timerLoad.Tick += new System.EventHandler(this.timerLoad_Tick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(922, 49);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 32);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Time Left";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(945, 128);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(66, 83);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(882, 49);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(34, 31);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
@@ -331,7 +350,6 @@
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1122, 835);
             this.Controls.Add(this.ImgSelectPanel);
-            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bank Card Personalization";
@@ -343,8 +361,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.selectedImageBox)).EndInit();
             this.panelImgGallery.ResumeLayout(false);
             this.panelImgGallery.PerformLayout();
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -365,14 +383,15 @@
         private System.Windows.Forms.Label lblTimerHour;
         private System.Windows.Forms.Timer timerLoad;
         private System.Windows.Forms.Label lblTimerSec;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.GroupBox gBoxStepOne;
         private System.Windows.Forms.Label labelInstructOne;
         private System.Windows.Forms.Button btnImgRandom;
         private System.Windows.Forms.GroupBox grpSelectedImg;
         private System.Windows.Forms.PictureBox selectedImageBox;
         private System.Windows.Forms.Button btnRotate;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

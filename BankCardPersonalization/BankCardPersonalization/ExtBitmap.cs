@@ -977,7 +977,50 @@ namespace BankCardPersonalization
             return (byte)(colour > 255 ? 255 :
                    (colour < 0 ? 0 : colour));
         }
-     
+        public static Bitmap ArithmeticBlend(this Bitmap sourceBitmap, Bitmap blendBitmap,
+                                        ColorCalculator.ColorCalculationType calculationType)
+        {
+            BitmapData sourceData = sourceBitmap.LockBits(new Rectangle(0, 0,
+                                    sourceBitmap.Width, sourceBitmap.Height),
+                                    ImageLockMode.ReadOnly, PixelFormat.Format32bppArgb);
+
+            byte[] pixelBuffer = new byte[sourceData.Stride * sourceData.Height];
+            Marshal.Copy(sourceData.Scan0, pixelBuffer, 0, pixelBuffer.Length);
+            sourceBitmap.UnlockBits(sourceData);
+
+            BitmapData blendData = blendBitmap.LockBits(new Rectangle(0, 0,
+                                    blendBitmap.Width, blendBitmap.Height),
+                                    ImageLockMode.ReadOnly, PixelFormat.Format32bppArgb);
+
+            byte[] blendBuffer = new byte[blendData.Stride * blendData.Height];
+            Marshal.Copy(blendData.Scan0, blendBuffer, 0, blendBuffer.Length);
+            blendBitmap.UnlockBits(blendData);
+
+            for (int k = 0; (k + 4 < pixelBuffer.Length) &&
+                            (k + 4 < blendBuffer.Length); k += 4)
+            {
+                pixelBuffer[k] = ColorCalculator.Calculate(pixelBuffer[k],
+                                 blendBuffer[k], calculationType);
+
+                pixelBuffer[k + 1] = ColorCalculator.Calculate(pixelBuffer[k + 1],
+                                     blendBuffer[k + 1], calculationType);
+
+                pixelBuffer[k + 2] = ColorCalculator.Calculate(pixelBuffer[k + 2],
+                                     blendBuffer[k + 2], calculationType);
+            }
+
+            Bitmap resultBitmap = new Bitmap(sourceBitmap.Width, sourceBitmap.Height);
+
+            BitmapData resultData = resultBitmap.LockBits(new Rectangle(0, 0,
+                                    resultBitmap.Width, resultBitmap.Height),
+                                    ImageLockMode.WriteOnly, PixelFormat.Format32bppArgb);
+
+            Marshal.Copy(pixelBuffer, 0, resultData.Scan0, pixelBuffer.Length);
+            resultBitmap.UnlockBits(resultData);
+
+            return resultBitmap;
+        }
+
         public static Bitmap SwapColorsCopy(this Bitmap originalImage, ColorSwapFilter swapFilterData)
         {
             BitmapData sourceData = originalImage.LockBits
