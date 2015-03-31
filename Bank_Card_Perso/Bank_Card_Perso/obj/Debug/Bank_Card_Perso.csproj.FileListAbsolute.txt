@@ -1,0 +1,17 @@
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\bin\Debug\Bank_Card_Perso.exe.config
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\bin\Debug\Bank_Card_Perso.exe
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\bin\Debug\Bank_Card_Perso.pdb
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.csprojResolveAssemblyReference.cache
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.Form1.resources
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.Properties.Resources.resources
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.csproj.GenerateResource.Cache
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.exe
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.pdb
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\bin\Debug\EnhancedGlassButton.dll
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\bin\Debug\MetroFramework.dll
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\bin\Debug\MetroFramework.Fonts.dll
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.Photoupload.resources
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.Brightness.resources
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.ExpressFraming.resources
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.ExpressFormText.resources
+c:\users\jack\documents\visual studio 2013\Projects\Bank_Card_Perso\Bank_Card_Perso\obj\Debug\Bank_Card_Perso.ExpressPreview.resources

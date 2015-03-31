@@ -1368,11 +1368,14 @@ namespace BankCardPersonalization
 
         private void btnProceed_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
-            form3.Show();
+            Image lastImage;
+            lastImage = previewImgBox.Image;
+            FormFilling formFilling = new FormFilling();
+            formFilling.SetCardPreview(lastImage.Clone() as Image);
+            formFilling.Show();
+            this.Hide();
+            timerExecute(false);
         }
-
-      
     } 
   }   
    

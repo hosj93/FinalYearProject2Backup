@@ -31,6 +31,10 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.ImgSelectPanel = new System.Windows.Forms.Panel();
+            this.btnExpressMode = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnRotate = new System.Windows.Forms.Button();
             this.btnImgRandom = new System.Windows.Forms.Button();
             this.buttonSelectImg = new System.Windows.Forms.Button();
@@ -50,21 +54,19 @@
             this.btnImgProNext = new System.Windows.Forms.Button();
             this.buttonImgGallery = new System.Windows.Forms.Button();
             this.timerLoad = new System.Windows.Forms.Timer(this.components);
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.ImgSelectPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.gBoxStepOne.SuspendLayout();
             this.grpSelectedImg.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.selectedImageBox)).BeginInit();
             this.panelImgGallery.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // ImgSelectPanel
             // 
             this.ImgSelectPanel.BackColor = System.Drawing.Color.Silver;
+            this.ImgSelectPanel.Controls.Add(this.btnExpressMode);
             this.ImgSelectPanel.Controls.Add(this.pictureBox2);
             this.ImgSelectPanel.Controls.Add(this.pictureBox1);
             this.ImgSelectPanel.Controls.Add(this.label1);
@@ -72,7 +74,6 @@
             this.ImgSelectPanel.Controls.Add(this.btnImgRandom);
             this.ImgSelectPanel.Controls.Add(this.buttonSelectImg);
             this.ImgSelectPanel.Controls.Add(this.gBoxStepOne);
-            this.ImgSelectPanel.Controls.Add(this.grpSelectedImg);
             this.ImgSelectPanel.Controls.Add(this.panelImgGallery);
             this.ImgSelectPanel.Controls.Add(this.lblTimerSec);
             this.ImgSelectPanel.Controls.Add(this.lblDotTwo);
@@ -87,11 +88,52 @@
             this.ImgSelectPanel.Size = new System.Drawing.Size(1122, 835);
             this.ImgSelectPanel.TabIndex = 0;
             // 
+            // btnExpressMode
+            // 
+            this.btnExpressMode.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExpressMode.Location = new System.Drawing.Point(819, 725);
+            this.btnExpressMode.Name = "btnExpressMode";
+            this.btnExpressMode.Size = new System.Drawing.Size(125, 72);
+            this.btnExpressMode.TabIndex = 18;
+            this.btnExpressMode.Text = "Express Mode";
+            this.btnExpressMode.UseVisualStyleBackColor = true;
+            this.btnExpressMode.Click += new System.EventHandler(this.btnExpressMode_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(882, 49);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(34, 31);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(945, 128);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(66, 83);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(922, 49);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 32);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Time Left";
+            // 
             // btnRotate
             // 
             this.btnRotate.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRotate.BackgroundImage")));
             this.btnRotate.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnRotate.Location = new System.Drawing.Point(728, 722);
+            this.btnRotate.Location = new System.Drawing.Point(693, 717);
             this.btnRotate.Name = "btnRotate";
             this.btnRotate.Size = new System.Drawing.Size(66, 51);
             this.btnRotate.TabIndex = 14;
@@ -155,7 +197,7 @@
             // 
             this.grpSelectedImg.Controls.Add(this.selectedImageBox);
             this.grpSelectedImg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpSelectedImg.Location = new System.Drawing.Point(421, 269);
+            this.grpSelectedImg.Location = new System.Drawing.Point(3, 17);
             this.grpSelectedImg.Name = "grpSelectedImg";
             this.grpSelectedImg.Size = new System.Drawing.Size(663, 447);
             this.grpSelectedImg.TabIndex = 11;
@@ -164,7 +206,7 @@
             // 
             // selectedImageBox
             // 
-            this.selectedImageBox.Location = new System.Drawing.Point(16, 69);
+            this.selectedImageBox.Location = new System.Drawing.Point(20, 56);
             this.selectedImageBox.Name = "selectedImageBox";
             this.selectedImageBox.Size = new System.Drawing.Size(637, 373);
             this.selectedImageBox.TabIndex = 2;
@@ -175,6 +217,7 @@
             // 
             this.panelImgGallery.Controls.Add(this.listViewGallery);
             this.panelImgGallery.Controls.Add(this.labelImgGallery);
+            this.panelImgGallery.Controls.Add(this.grpSelectedImg);
             this.panelImgGallery.Location = new System.Drawing.Point(421, 269);
             this.panelImgGallery.Name = "panelImgGallery";
             this.panelImgGallery.Size = new System.Drawing.Size(663, 447);
@@ -284,11 +327,12 @@
             // 
             // btnImgProNext
             // 
-            this.btnImgProNext.Location = new System.Drawing.Point(981, 762);
+            this.btnImgProNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImgProNext.Location = new System.Drawing.Point(966, 725);
             this.btnImgProNext.Name = "btnImgProNext";
-            this.btnImgProNext.Size = new System.Drawing.Size(103, 44);
+            this.btnImgProNext.Size = new System.Drawing.Size(118, 72);
             this.btnImgProNext.TabIndex = 2;
-            this.btnImgProNext.Text = "Next";
+            this.btnImgProNext.Text = "Full Mode";
             this.btnImgProNext.UseVisualStyleBackColor = true;
             this.btnImgProNext.Click += new System.EventHandler(this.btnImgProNext_Click);
             // 
@@ -311,37 +355,6 @@
             // timerLoad
             // 
             this.timerLoad.Interval = 1000;
-            this.timerLoad.Tick += new System.EventHandler(this.timerLoad_Tick);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(922, 49);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 32);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "Time Left";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(945, 128);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(66, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(882, 49);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(34, 31);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 17;
-            this.pictureBox2.TabStop = false;
             // 
             // Form1
             // 
@@ -355,14 +368,14 @@
             this.Text = "Bank Card Personalization";
             this.ImgSelectPanel.ResumeLayout(false);
             this.ImgSelectPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.gBoxStepOne.ResumeLayout(false);
             this.gBoxStepOne.PerformLayout();
             this.grpSelectedImg.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.selectedImageBox)).EndInit();
             this.panelImgGallery.ResumeLayout(false);
             this.panelImgGallery.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -392,6 +405,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnExpressMode;
     }
 }
 

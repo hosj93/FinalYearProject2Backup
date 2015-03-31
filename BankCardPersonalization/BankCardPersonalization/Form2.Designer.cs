@@ -113,20 +113,6 @@
             this.label28 = new System.Windows.Forms.Label();
             this.btnProceed = new System.Windows.Forms.Button();
             this.myGroupBox1 = new BankCardPersonalization.myGroupBox();
-            this.panelTextInsert = new System.Windows.Forms.Panel();
-            this.btnApplyText = new System.Windows.Forms.Button();
-            this.cBoxTextColor = new System.Windows.Forms.ComboBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.cBoxTextLocation = new System.Windows.Forms.ComboBox();
-            this.label24 = new System.Windows.Forms.Label();
-            this.textInserting = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.cBoxFontStyle = new System.Windows.Forms.ComboBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.cBoxFontSize = new System.Windows.Forms.ComboBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.cBoxFont = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.rBtnText = new System.Windows.Forms.RadioButton();
             this.rBtnFilters = new System.Windows.Forms.RadioButton();
             this.panelFilters = new System.Windows.Forms.Panel();
@@ -145,6 +131,20 @@
             this.btnOverlayBasThree = new System.Windows.Forms.Button();
             this.btnOverlayBasTwo = new System.Windows.Forms.Button();
             this.btnOverlayBasOne = new System.Windows.Forms.Button();
+            this.panelTextInsert = new System.Windows.Forms.Panel();
+            this.btnApplyText = new System.Windows.Forms.Button();
+            this.cBoxTextColor = new System.Windows.Forms.ComboBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.cBoxTextLocation = new System.Windows.Forms.ComboBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.textInserting = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.cBoxFontStyle = new System.Windows.Forms.ComboBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.cBoxFontSize = new System.Windows.Forms.ComboBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.cBoxFont = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBoxPrevImage = new BankCardPersonalization.myGroupBox();
             this.previewImgBox = new System.Windows.Forms.PictureBox();
             this.groupBoxFrame = new BankCardPersonalization.myGroupBox();
@@ -183,11 +183,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxCard)).BeginInit();
             this.myGroupBox1.SuspendLayout();
-            this.panelTextInsert.SuspendLayout();
             this.panelFilters.SuspendLayout();
             this.tabFilters.SuspendLayout();
             this.tabFilterOne.SuspendLayout();
             this.tabFilterTwo.SuspendLayout();
+            this.panelTextInsert.SuspendLayout();
             this.groupBoxPrevImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.previewImgBox)).BeginInit();
             this.groupBoxFrame.SuspendLayout();
@@ -1130,143 +1130,6 @@
             this.myGroupBox1.TabStop = false;
             this.myGroupBox1.Text = "Extra Effect";
             // 
-            // panelTextInsert
-            // 
-            this.panelTextInsert.Controls.Add(this.btnApplyText);
-            this.panelTextInsert.Controls.Add(this.cBoxTextColor);
-            this.panelTextInsert.Controls.Add(this.label25);
-            this.panelTextInsert.Controls.Add(this.cBoxTextLocation);
-            this.panelTextInsert.Controls.Add(this.label24);
-            this.panelTextInsert.Controls.Add(this.textInserting);
-            this.panelTextInsert.Controls.Add(this.label23);
-            this.panelTextInsert.Controls.Add(this.cBoxFontStyle);
-            this.panelTextInsert.Controls.Add(this.label22);
-            this.panelTextInsert.Controls.Add(this.cBoxFontSize);
-            this.panelTextInsert.Controls.Add(this.label21);
-            this.panelTextInsert.Controls.Add(this.cBoxFont);
-            this.panelTextInsert.Controls.Add(this.label9);
-            this.panelTextInsert.Location = new System.Drawing.Point(17, 62);
-            this.panelTextInsert.Name = "panelTextInsert";
-            this.panelTextInsert.Size = new System.Drawing.Size(326, 372);
-            this.panelTextInsert.TabIndex = 4;
-            // 
-            // btnApplyText
-            // 
-            this.btnApplyText.Location = new System.Drawing.Point(80, 320);
-            this.btnApplyText.Name = "btnApplyText";
-            this.btnApplyText.Size = new System.Drawing.Size(145, 32);
-            this.btnApplyText.TabIndex = 12;
-            this.btnApplyText.Text = "Apply Text";
-            this.btnApplyText.UseVisualStyleBackColor = true;
-            this.btnApplyText.Click += new System.EventHandler(this.btnApplyText_Click);
-            // 
-            // cBoxTextColor
-            // 
-            this.cBoxTextColor.FormattingEnabled = true;
-            this.cBoxTextColor.Location = new System.Drawing.Point(126, 253);
-            this.cBoxTextColor.Name = "cBoxTextColor";
-            this.cBoxTextColor.Size = new System.Drawing.Size(190, 33);
-            this.cBoxTextColor.TabIndex = 11;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(9, 258);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(94, 21);
-            this.label25.TabIndex = 10;
-            this.label25.Text = "Text Color:";
-            // 
-            // cBoxTextLocation
-            // 
-            this.cBoxTextLocation.FormattingEnabled = true;
-            this.cBoxTextLocation.Location = new System.Drawing.Point(126, 208);
-            this.cBoxTextLocation.Name = "cBoxTextLocation";
-            this.cBoxTextLocation.Size = new System.Drawing.Size(190, 33);
-            this.cBoxTextLocation.TabIndex = 9;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(8, 213);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(117, 21);
-            this.label24.TabIndex = 8;
-            this.label24.Text = "Text Location:";
-            // 
-            // textInserting
-            // 
-            this.textInserting.Location = new System.Drawing.Point(80, 157);
-            this.textInserting.Name = "textInserting";
-            this.textInserting.Size = new System.Drawing.Size(236, 31);
-            this.textInserting.TabIndex = 7;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(8, 162);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(51, 21);
-            this.label23.TabIndex = 6;
-            this.label23.Text = "Text:";
-            // 
-            // cBoxFontStyle
-            // 
-            this.cBoxFontStyle.FormattingEnabled = true;
-            this.cBoxFontStyle.Location = new System.Drawing.Point(126, 111);
-            this.cBoxFontStyle.Name = "cBoxFontStyle";
-            this.cBoxFontStyle.Size = new System.Drawing.Size(190, 33);
-            this.cBoxFontStyle.TabIndex = 5;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(8, 116);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(93, 21);
-            this.label22.TabIndex = 4;
-            this.label22.Text = "Font Style:";
-            // 
-            // cBoxFontSize
-            // 
-            this.cBoxFontSize.FormattingEnabled = true;
-            this.cBoxFontSize.Location = new System.Drawing.Point(126, 59);
-            this.cBoxFontSize.Name = "cBoxFontSize";
-            this.cBoxFontSize.Size = new System.Drawing.Size(190, 33);
-            this.cBoxFontSize.TabIndex = 3;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(8, 64);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(86, 21);
-            this.label21.TabIndex = 2;
-            this.label21.Text = "Font Size:";
-            // 
-            // cBoxFont
-            // 
-            this.cBoxFont.FormattingEnabled = true;
-            this.cBoxFont.Location = new System.Drawing.Point(126, 10);
-            this.cBoxFont.Name = "cBoxFont";
-            this.cBoxFont.Size = new System.Drawing.Size(190, 33);
-            this.cBoxFont.TabIndex = 1;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(9, 15);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 21);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Font:";
-            // 
             // rBtnText
             // 
             this.rBtnText.AutoSize = true;
@@ -1473,6 +1336,143 @@
             this.btnOverlayBasOne.UseVisualStyleBackColor = true;
             this.btnOverlayBasOne.Click += new System.EventHandler(this.btnOverlayBasOne_Click);
             // 
+            // panelTextInsert
+            // 
+            this.panelTextInsert.Controls.Add(this.btnApplyText);
+            this.panelTextInsert.Controls.Add(this.cBoxTextColor);
+            this.panelTextInsert.Controls.Add(this.label25);
+            this.panelTextInsert.Controls.Add(this.cBoxTextLocation);
+            this.panelTextInsert.Controls.Add(this.label24);
+            this.panelTextInsert.Controls.Add(this.textInserting);
+            this.panelTextInsert.Controls.Add(this.label23);
+            this.panelTextInsert.Controls.Add(this.cBoxFontStyle);
+            this.panelTextInsert.Controls.Add(this.label22);
+            this.panelTextInsert.Controls.Add(this.cBoxFontSize);
+            this.panelTextInsert.Controls.Add(this.label21);
+            this.panelTextInsert.Controls.Add(this.cBoxFont);
+            this.panelTextInsert.Controls.Add(this.label9);
+            this.panelTextInsert.Location = new System.Drawing.Point(14, 59);
+            this.panelTextInsert.Name = "panelTextInsert";
+            this.panelTextInsert.Size = new System.Drawing.Size(326, 372);
+            this.panelTextInsert.TabIndex = 4;
+            // 
+            // btnApplyText
+            // 
+            this.btnApplyText.Location = new System.Drawing.Point(80, 320);
+            this.btnApplyText.Name = "btnApplyText";
+            this.btnApplyText.Size = new System.Drawing.Size(145, 32);
+            this.btnApplyText.TabIndex = 12;
+            this.btnApplyText.Text = "Apply Text";
+            this.btnApplyText.UseVisualStyleBackColor = true;
+            this.btnApplyText.Click += new System.EventHandler(this.btnApplyText_Click);
+            // 
+            // cBoxTextColor
+            // 
+            this.cBoxTextColor.FormattingEnabled = true;
+            this.cBoxTextColor.Location = new System.Drawing.Point(126, 253);
+            this.cBoxTextColor.Name = "cBoxTextColor";
+            this.cBoxTextColor.Size = new System.Drawing.Size(190, 33);
+            this.cBoxTextColor.TabIndex = 11;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(9, 258);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(94, 21);
+            this.label25.TabIndex = 10;
+            this.label25.Text = "Text Color:";
+            // 
+            // cBoxTextLocation
+            // 
+            this.cBoxTextLocation.FormattingEnabled = true;
+            this.cBoxTextLocation.Location = new System.Drawing.Point(126, 208);
+            this.cBoxTextLocation.Name = "cBoxTextLocation";
+            this.cBoxTextLocation.Size = new System.Drawing.Size(190, 33);
+            this.cBoxTextLocation.TabIndex = 9;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(8, 213);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(117, 21);
+            this.label24.TabIndex = 8;
+            this.label24.Text = "Text Location:";
+            // 
+            // textInserting
+            // 
+            this.textInserting.Location = new System.Drawing.Point(80, 157);
+            this.textInserting.Name = "textInserting";
+            this.textInserting.Size = new System.Drawing.Size(236, 31);
+            this.textInserting.TabIndex = 7;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(8, 162);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(51, 21);
+            this.label23.TabIndex = 6;
+            this.label23.Text = "Text:";
+            // 
+            // cBoxFontStyle
+            // 
+            this.cBoxFontStyle.FormattingEnabled = true;
+            this.cBoxFontStyle.Location = new System.Drawing.Point(126, 111);
+            this.cBoxFontStyle.Name = "cBoxFontStyle";
+            this.cBoxFontStyle.Size = new System.Drawing.Size(190, 33);
+            this.cBoxFontStyle.TabIndex = 5;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(8, 116);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(93, 21);
+            this.label22.TabIndex = 4;
+            this.label22.Text = "Font Style:";
+            // 
+            // cBoxFontSize
+            // 
+            this.cBoxFontSize.FormattingEnabled = true;
+            this.cBoxFontSize.Location = new System.Drawing.Point(126, 59);
+            this.cBoxFontSize.Name = "cBoxFontSize";
+            this.cBoxFontSize.Size = new System.Drawing.Size(190, 33);
+            this.cBoxFontSize.TabIndex = 3;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(8, 64);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(86, 21);
+            this.label21.TabIndex = 2;
+            this.label21.Text = "Font Size:";
+            // 
+            // cBoxFont
+            // 
+            this.cBoxFont.FormattingEnabled = true;
+            this.cBoxFont.Location = new System.Drawing.Point(126, 10);
+            this.cBoxFont.Name = "cBoxFont";
+            this.cBoxFont.Size = new System.Drawing.Size(190, 33);
+            this.cBoxFont.TabIndex = 1;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(9, 15);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(49, 21);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Font:";
+            // 
             // groupBoxPrevImage
             // 
             this.groupBoxPrevImage.BorderColor = System.Drawing.Color.Black;
@@ -1515,7 +1515,7 @@
             this.panelFrameOne.Controls.Add(this.btnFrameOne);
             this.panelFrameOne.Location = new System.Drawing.Point(25, 23);
             this.panelFrameOne.Name = "panelFrameOne";
-            this.panelFrameOne.Size = new System.Drawing.Size(299, 283);
+            this.panelFrameOne.Size = new System.Drawing.Size(299, 286);
             this.panelFrameOne.TabIndex = 0;
             // 
             // btnNext
@@ -1702,12 +1702,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBoxCard)).EndInit();
             this.myGroupBox1.ResumeLayout(false);
             this.myGroupBox1.PerformLayout();
-            this.panelTextInsert.ResumeLayout(false);
-            this.panelTextInsert.PerformLayout();
             this.panelFilters.ResumeLayout(false);
             this.tabFilters.ResumeLayout(false);
             this.tabFilterOne.ResumeLayout(false);
             this.tabFilterTwo.ResumeLayout(false);
+            this.panelTextInsert.ResumeLayout(false);
+            this.panelTextInsert.PerformLayout();
             this.groupBoxPrevImage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.previewImgBox)).EndInit();
             this.groupBoxFrame.ResumeLayout(false);

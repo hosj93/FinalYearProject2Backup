@@ -144,7 +144,7 @@ namespace BankCardPersonalization
 
         }
 
-        private void timerLoad_Tick(object sender, EventArgs e)
+        /**private void timerLoad_Tick(object sender, EventArgs e)
         {
             //string argError = "Please Choose An Image In Order To Proceed !";
             string argRndImg = "Press Yes If You Wish To Random An Image From Our Gallery.";
@@ -216,7 +216,7 @@ namespace BankCardPersonalization
                 lblTimerSec.Text = sec.ToString();
             }
             
-        }
+        }**/
 
         private void btnImgProNext_Click(object sender, EventArgs e)
         {
@@ -234,18 +234,18 @@ namespace BankCardPersonalization
             }
             else
             {
-               imageConfirmation();
+               imageConfirmation("buttonFullMode");
             }
         }
 
-        private void imageConfirmation()
+        private void imageConfirmation(string buttonType)
         {
             string imgConfirm = "Is This The Image That You Wish To Customize ?";
             timerFunction(false);
             DialogResult imgConfirmation = MessageBox.Show(imgConfirm, "Image Confirmation",
             MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
 
-            if (imgConfirmation == DialogResult.Yes)
+            if (imgConfirmation == DialogResult.Yes && buttonType == "buttonFullMode")
             {
                 Form2 f2 = new Form2();
                 f2.SetImagePreview(bmpSelectedImg.Clone() as Image , previewSelectedImg.Clone() as Image);
@@ -253,6 +253,13 @@ namespace BankCardPersonalization
                 //f2.ShowDialog();
                 this.Hide();
                 timerFunction(false);
+            }
+            else if (imgConfirmation == DialogResult.Yes && buttonType == "buttonExpressMode")
+            {
+                ExpressMode expForm = new ExpressMode();
+                expForm.SetImagePreview(bmpSelectedImg.Clone() as Image, previewSelectedImg.Clone() as Image);
+                expForm.Show();
+                this.Hide();
             }
         }
 
@@ -316,6 +323,26 @@ namespace BankCardPersonalization
             //    previewSelectedImg = new Bitmap(selectedImageBox.Image);
             //    imageLoaded = true;
             //}
+        }
+
+        private void btnExpressMode_Click(object sender, EventArgs e)
+        {
+            string argRndImg = "Do You Wish To Random An Image From Our Gallery ?";
+            string noImgFound = "No Image Available For Customization Process !" + Environment.NewLine + argRndImg;
+
+            if (selectedImageBox.Image == null)
+            {
+                DialogResult noImgResult = MessageBox.Show(noImgFound, "No Image Found",
+                        MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1, MessageBoxOptions.DefaultDesktopOnly);
+                if (noImgResult == DialogResult.Yes)
+                {
+                    btnImgRandom.PerformClick();
+                }
+            }
+            else
+            {
+                imageConfirmation("buttonExpressMode");
+            }
         }
      }   
 }
